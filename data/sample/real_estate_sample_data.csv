@@ -1,0 +1,1001 @@
+list_date,location,property_type,bedrooms,bathrooms,sqft,price,listing_status
+2025-04-15 11:25:22.980901000,"Palm Jumeirah, Dubai",Apartment,2,2.5,1365.0,1565000.0,Active
+2025-04-15 15:44:50.548468567,"Al Majaz, Sharjah",Villa,1,3.0,2500.0,2185000.0,Sold
+2025-04-15 20:04:18.116036135,"Al Reem Island, Abu Dhabi",Townhouse,4,2.0,2196.0,2995000.0,Pending
+2025-04-16 00:23:45.683603702,"Arabian Ranches, Dubai",Villa,1,2.5,2500.0,3305000.0,Active
+2025-04-16 04:43:13.251171270,"Downtown Dubai, Dubai",Townhouse,2,2.5,1500.0,2500000.0,Sold
+2025-04-16 09:02:40.818738837,"Downtown Dubai, Dubai",Villa,3,3.0,2500.0,4500000.0,Active
+2025-04-16 13:22:08.386306405,"Dubai Marina, Dubai",Villa,2,3.5,2500.0,4340000.0,Active
+2025-04-16 17:41:35.953873972,"Yas Island, Abu Dhabi",Townhouse,3,1.0,1500.0,2290000.0,Active
+2025-04-16 22:01:03.521441540,"Arabian Ranches, Dubai",Apartment,1,2.5,641.0,755000.0,Active
+2025-04-17 02:20:31.089009108,"International City, Dubai",Apartment,2,1.0,1131.0,630000.0,Sold
+2025-04-17 06:39:58.656576675,"Dubai Marina, Dubai",Apartment,0,2.0,600.0,750000.0,Active
+2025-04-17 10:59:26.224144243,"Al Khan, Sharjah",Studio,1,2.0,600.0,315000.0,Active
+2025-04-17 15:18:53.791711810,"Al Raha Beach, Abu Dhabi",Penthouse,4,2.0,2027.0,4635000.0,Active
+2025-04-17 19:38:21.359279378,"Downtown Dubai, Dubai",Apartment,1,2.0,791.0,1015000.0,Active
+2025-04-17 23:57:48.926846945,"Downtown Dubai, Dubai",Villa,2,2.5,2500.0,4070000.0,Active
+2025-04-18 04:17:16.494414513,"Downtown Dubai, Dubai",Penthouse,2,2.0,2000.0,5400000.0,Active
+2025-04-18 08:36:44.061982081,"Jumeirah Beach Residence, Dubai",Apartment,2,3.0,899.0,1295000.0,Pending
+2025-04-18 12:56:11.629549648,"Business Bay, Dubai",Villa,4,2.0,2500.0,3900000.0,Active
+2025-04-18 17:15:39.197117216,"Palm Jumeirah, Dubai",Penthouse,0,1.0,2000.0,6175000.0,Pending
+2025-04-18 21:35:06.764684783,"Jumeirah Beach Residence, Dubai",Apartment,3,3.0,1449.0,1520000.0,Active
+2025-04-19 01:54:34.332252351,"Dubai Silicon Oasis, Dubai",Villa,5,2.0,4182.0,3280000.0,Pending
+2025-04-19 06:14:01.899819918,"Dubai Marina, Dubai",Apartment,2,2.0,1203.0,1390000.0,Pending
+2025-04-19 10:33:29.467387486,"Jumeirah Beach Residence, Dubai",Penthouse,4,2.5,2989.0,5775000.0,Active
+2025-04-19 14:52:57.034955054,"Jumeirah Beach Residence, Dubai",Studio,1,2.0,600.0,500000.0,Active
+2025-04-19 19:12:24.602522621,"Business Bay, Dubai",Penthouse,2,1.0,2000.0,5250000.0,Pending
+2025-04-19 23:31:52.170090189,"Al Reem Island, Abu Dhabi",Apartment,2,2.0,1033.0,1035000.0,Active
+2025-04-20 03:51:19.737657756,"Downtown Dubai, Dubai",Townhouse,3,3.5,1500.0,2555000.0,Sold
+2025-04-20 08:10:47.305225324,"Business Bay, Dubai",Townhouse,5,2.5,3000.0,3260000.0,Active
+2025-04-20 12:30:14.872792891,"Arabian Ranches, Dubai",Apartment,2,2.5,860.0,950000.0,Active
+2025-04-20 16:49:42.440360459,"Dubai Marina, Dubai",Townhouse,3,2.5,1868.0,2530000.0,Active
+2025-04-20 21:09:10.007928027,"Arabian Ranches, Dubai",Apartment,1,1.5,833.0,775000.0,Sold
+2025-04-21 01:28:37.575495594,"Downtown Dubai, Dubai",Villa,2,2.0,2500.0,3945000.0,Active
+2025-04-21 05:48:05.143063162,"Dubai Marina, Dubai",Apartment,2,3.0,1018.0,1295000.0,Pending
+2025-04-21 10:07:32.710630729,"Al Majaz, Sharjah",Apartment,5,,2000.0,1150000.0,Pending
+2025-04-21 14:27:00.278198297,"Al Khan, Sharjah",Apartment,3,2.0,2000.0,1040000.0,Active
+2025-04-21 18:46:27.845765864,"Al Raha Beach, Abu Dhabi",Villa,2,2.0,2500.0,3500000.0,Active
+2025-04-21 23:05:55.413333432,"Jumeirah Beach Residence, Dubai",Apartment,1,2.0,600.0,925000.0,Pending
+2025-04-22 03:25:22.980901000,"Dubai Marina, Dubai",Villa,1,4.0,2500.0,3525000.0,Active
+2025-04-22 07:44:50.548468567,"International City, Dubai",Apartment,1,1.0,806.0,570000.0,Pending
+2025-04-22 12:04:18.116036135,"Palm Jumeirah, Dubai",Apartment,2,2.0,723.0,1180000.0,Active
+2025-04-22 16:23:45.683603702,"Dubai Marina, Dubai",Villa,4,1.5,2500.0,4590000.0,Active
+2025-04-22 20:43:13.251171270,"Business Bay, Dubai",Townhouse,2,4.0,1500.0,2415000.0,Pending
+2025-04-23 01:02:40.818738837,"Dubai Marina, Dubai",Apartment,2,1.5,1137.0,1250000.0,Active
+2025-04-23 05:22:08.386306405,"Khalifa City, Abu Dhabi",Villa,1,2.0,2500.0,2715000.0,Active
+2025-04-23 09:41:35.953873973,"Downtown Dubai, Dubai",Townhouse,4,3.0,2611.0,3320000.0,Active
+2025-04-23 14:01:03.521441540,"Dubai Silicon Oasis, Dubai",Villa,3,3.0,2500.0,2845000.0,Active
+2025-04-23 18:20:31.089009108,"Jumeirah Beach Residence, Dubai",Apartment,1,2.0,600.0,1010000.0,Active
+2025-04-23 22:39:58.656576675,"Business Bay, Dubai",Apartment,3,2.0,1396.0,1500000.0,Pending
+2025-04-24 02:59:26.224144243,"Arabian Ranches, Dubai",Townhouse,2,2.0,1500.0,1985000.0,Active
+2025-04-24 07:18:53.791711810,"Downtown Dubai, Dubai",Apartment,1,2.0,824.0,5085360.446316373,Active
+2025-04-24 11:38:21.359279378,"Al Khan, Sharjah",Townhouse,2,2.0,1500.0,1620000.0,Active
+2025-04-24 15:57:48.926846946,"Al Reem Island, Abu Dhabi",Villa,2,2.0,2500.0,4085000.0,Active
+2025-04-24 20:17:16.494414513,"Al Majaz, Sharjah",Penthouse,1,2.0,2000.0,3100000.0,Active
+2025-04-25 00:36:44.061982081,"Yas Island, Abu Dhabi",Townhouse,4,2.0,1910.0,2625000.0,Sold
+2025-04-25 04:56:11.629549648,"Arabian Ranches, Dubai",Studio,3,2.5,600.0,640000.0,Pending
+2025-04-25 09:15:39.197117216,"Khalifa City, Abu Dhabi",Apartment,3,4.0,2000.0,1285000.0,Active
+2025-04-25 13:35:06.764684783,"Dubai Marina, Dubai",Townhouse,2,2.5,1500.0,2250000.0,Active
+2025-04-25 17:54:34.332252351,"Downtown Dubai, Dubai",Apartment,2,,1456.0,1500000.0,Active
+2025-04-25 22:14:01.899819919,"Dubai Marina, Dubai",Apartment,3,1.0,1103.0,1350000.0,Active
+2025-04-26 02:33:29.467387486,"Jumeirah Beach Residence, Dubai",Villa,2,4.0,2500.0,3870000.0,Active
+2025-04-26 06:52:57.034955054,"Palm Jumeirah, Dubai",Townhouse,1,2.0,1500.0,2570000.0,Active
+2025-04-26 11:12:24.602522621,"Jumeirah Beach Residence, Dubai",Studio,2,1.0,600.0,700000.0,Active
+2025-04-26 15:31:52.170090189,"Al Raha Beach, Abu Dhabi",Townhouse,3,2.5,1500.0,1990000.0,Active
+2025-04-26 19:51:19.737657756,"Jumeirah Beach Residence, Dubai",Apartment,2,2.5,1251.0,1325000.0,Active
+2025-04-27 00:10:47.305225324,"Jumeirah Beach Residence, Dubai",Apartment,1,2.5,905.0,950000.0,Sold
+2025-04-27 04:30:14.872792892,"Arabian Ranches, Dubai",Villa,3,2.0,2500.0,3315000.0,Active
+2025-04-27 08:49:42.440360459,"Dubai Marina, Dubai",Apartment,1,1.0,742.0,970000.0,Active
+2025-04-27 13:09:10.007928027,"Al Raha Beach, Abu Dhabi",Apartment,2,4.0,902.0,1010000.0,Active
+2025-04-27 17:28:37.575495594,"Dubai Marina, Dubai",Apartment,1,2.0,600.0,890000.0,Active
+2025-04-27 21:48:05.143063162,"Muwaileh, Sharjah",Apartment,2,2.5,1349.0,695000.0,Pending
+2025-04-28 02:07:32.710630729,"Al Reem Island, Abu Dhabi",Apartment,3,3.0,1833.0,1395000.0,Active
+2025-04-28 06:27:00.278198297,"Downtown Dubai, Dubai",Apartment,2,2.5,1092.0,1295000.0,Active
+2025-04-28 10:46:27.845765864,"Dubai Marina, Dubai",Apartment,1,2.0,637.0,1035000.0,Active
+2025-04-28 15:05:55.413333432,"Al Raha Beach, Abu Dhabi",Apartment,4,2.0,1487.0,1560000.0,Pending
+2025-04-28 19:25:22.980901000,"International City, Dubai",Studio,4,2.5,600.0,495000.0,Active
+2025-04-28 23:44:50.548468567,"Al Reem Island, Abu Dhabi",Apartment,4,3.0,2000.0,1740000.0,Active
+2025-04-29 04:04:18.116036135,"Al Reem Island, Abu Dhabi",Apartment,1,3.5,600.0,935000.0,Active
+2025-04-29 08:23:45.683603702,"Dubai Marina, Dubai",Villa,2,1.5,2500.0,3650000.0,Active
+2025-04-29 12:43:13.251171270,"Jumeirah Beach Residence, Dubai",Apartment,5,1.5,2000.0,2140000.0,Active
+2025-04-29 17:02:40.818738838,"Dubai Marina, Dubai",Penthouse,3,3.5,2000.0,5820000.0,Active
+2025-04-29 21:22:08.386306405,"Yas Island, Abu Dhabi",Townhouse,0,3.0,1500.0,1790000.0,Active
+2025-04-30 01:41:35.953873973,"Dubai Silicon Oasis, Dubai",Apartment,1,3.0,840.0,655000.0,Pending
+2025-04-30 06:01:03.521441540,"Jumeirah Beach Residence, Dubai",Apartment,2,2.0,1102.0,1370000.0,Active
+2025-04-30 10:20:31.089009108,"Dubai Marina, Dubai",Townhouse,4,2.5,3000.0,3250000.0,Active
+2025-04-30 14:39:58.656576675,"Jumeirah Beach Residence, Dubai",Penthouse,2,3.0,2000.0,4685000.0,Active
+2025-04-30 18:59:26.224144243,"Jumeirah Beach Residence, Dubai",Apartment,2,2.5,1311.0,1260000.0,Sold
+2025-04-30 23:18:53.791711811,"Al Reem Island, Abu Dhabi",Villa,1,2.0,2500.0,3560000.0,Active
+2025-05-01 03:38:21.359279378,"Dubai Silicon Oasis, Dubai",Apartment,3,1.0,1831.0,1185000.0,Pending
+2025-05-01 07:57:48.926846946,"Yas Island, Abu Dhabi",Studio,3,2.5,600.0,765000.0,Active
+2025-05-01 12:17:16.494414513,"Business Bay, Dubai",Apartment,2,2.0,953.0,1225000.0,Active
+2025-05-01 16:36:44.061982081,"Dubai Marina, Dubai",Penthouse,3,2.0,2000.0,5115000.0,Active
+2025-05-01 20:56:11.629549648,"International City, Dubai",Villa,5,4.0,2500.0,2450000.0,Active
+2025-05-02 01:15:39.197117216,"Al Reem Island, Abu Dhabi",Villa,1,2.0,2500.0,3620000.0,Sold
+2025-05-02 05:35:06.764684783,"Arabian Ranches, Dubai",Villa,2,3.0,2500.0,3360000.0,Sold
+2025-05-02 09:54:34.332252351,"Al Reem Island, Abu Dhabi",Apartment,2,1.5,1227.0,1115000.0,Active
+2025-05-02 14:14:01.899819919,"Business Bay, Dubai",Apartment,3,2.5,,1695000.0,Active
+2025-05-02 18:33:29.467387486,"Business Bay, Dubai",Apartment,2,4.0,1173.0,1265000.0,Sold
+2025-05-02 22:52:57.034955054,"Palm Jumeirah, Dubai",Apartment,3,1.5,1644.0,1830000.0,Active
+2025-05-03 03:12:24.602522621,"Dubai Marina, Dubai",Townhouse,3,1.0,1500.0,2635000.0,Active
+2025-05-03 07:31:52.170090189,"Dubai Marina, Dubai",Apartment,2,2.0,957.0,1140000.0,Active
+2025-05-03 11:51:19.737657756,"Dubai Marina, Dubai",Apartment,4,1.0,2000.0,5669616.870919334,Active
+2025-05-03 16:10:47.305225324,"Dubai Silicon Oasis, Dubai",Studio,2,,600.0,460000.0,Active
+2025-05-03 20:30:14.872792892,"Jumeirah Beach Residence, Dubai",Townhouse,1,,1500.0,2275000.0,Active
+2025-05-04 00:49:42.440360459,"Business Bay, Dubai",Penthouse,3,2.0,2000.0,5415000.0,Active
+2025-05-04 05:09:10.007928027,"Khalifa City, Abu Dhabi",Studio,3,2.0,600.0,560000.0,Active
+2025-05-04 09:28:37.575495594,"Downtown Dubai, Dubai",Apartment,2,2.0,1334.0,1395000.0,Active
+2025-05-04 13:48:05.143063162,"Palm Jumeirah, Dubai",Apartment,4,3.0,2000.0,2260000.0,Active
+2025-05-04 18:07:32.710630729,"Al Reem Island, Abu Dhabi",Townhouse,4,1.0,3000.0,2780000.0,Pending
+2025-05-04 22:27:00.278198297,"Downtown Dubai, Dubai",Villa,2,2.5,2500.0,4260000.0,Active
+2025-05-05 02:46:27.845765865,"Dubai Marina, Dubai",Apartment,5,2.5,2000.0,1955000.0,Active
+2025-05-05 07:05:55.413333432,"Jumeirah Beach Residence, Dubai",Townhouse,1,2.5,1500.0,2240000.0,Sold
+2025-05-05 11:25:22.980901000,"Downtown Dubai, Dubai",Apartment,1,2.0,796.0,1135000.0,Sold
+2025-05-05 15:44:50.548468567,"Khalifa City, Abu Dhabi",Apartment,1,3.0,667.0,660000.0,Active
+2025-05-05 20:04:18.116036135,"Al Raha Beach, Abu Dhabi",Villa,4,1.0,2500.0,3910000.0,Active
+2025-05-06 00:23:45.683603702,"Dubai Silicon Oasis, Dubai",Villa,3,1.5,2500.0,2955000.0,Pending
+2025-05-06 04:43:13.251171270,"Yas Island, Abu Dhabi",Villa,1,3.0,2500.0,3480000.0,Pending
+2025-05-06 09:02:40.818738838,"Al Raha Beach, Abu Dhabi",Apartment,2,3.0,916.0,1075000.0,Sold
+2025-05-06 13:22:08.386306405,"Downtown Dubai, Dubai",Townhouse,3,1.0,2006.0,2800000.0,Pending
+2025-05-06 17:41:35.953873973,"Yas Island, Abu Dhabi",Apartment,1,2.0,875.0,895000.0,Active
+2025-05-06 22:01:03.521441540,"Business Bay, Dubai",Apartment,4,2.0,2000.0,1720000.0,Active
+2025-05-07 02:20:31.089009108,"Al Raha Beach, Abu Dhabi",Townhouse,3,2.0,1623.0,2110000.0,Active
+2025-05-07 06:39:58.656576675,"Yas Island, Abu Dhabi",Studio,2,2.0,600.0,530000.0,Active
+2025-05-07 10:59:26.224144243,"Jumeirah Beach Residence, Dubai",Townhouse,5,1.0,2896.0,3445000.0,Active
+2025-05-07 15:18:53.791711811,"Dubai Marina, Dubai",Townhouse,2,2.0,1500.0,2430000.0,Active
+2025-05-07 19:38:21.359279378,"Downtown Dubai, Dubai",Villa,5,3.0,2500.0,4810000.0,Active
+2025-05-07 23:57:48.926846946,"Palm Jumeirah, Dubai",Villa,3,2.5,2500.0,5305000.0,Pending
+2025-05-08 04:17:16.494414513,"Al Raha Beach, Abu Dhabi",Apartment,3,2.5,1131.0,1220000.0,Active
+2025-05-08 08:36:44.061982081,"Yas Island, Abu Dhabi",Apartment,1,1.0,925.0,1030000.0,Active
+2025-05-08 12:56:11.629549648,"Dubai Marina, Dubai",Apartment,4,4.0,2000.0,1725000.0,Active
+2025-05-08 17:15:39.197117216,"Business Bay, Dubai",Apartment,2,3.0,1057.0,1160000.0,Active
+2025-05-08 21:35:06.764684784,"Palm Jumeirah, Dubai",Villa,1,3.0,2500.0,4825000.0,Pending
+2025-05-09 01:54:34.332252351,"Downtown Dubai, Dubai",Apartment,0,3.0,600.0,855000.0,Active
+2025-05-09 06:14:01.899819919,"Dubai Marina, Dubai",Apartment,2,,1383.0,1405000.0,Sold
+2025-05-09 10:33:29.467387486,"Jumeirah Beach Residence, Dubai",Apartment,2,2.0,602.0,1065000.0,Active
+2025-05-09 14:52:57.034955054,"Al Majaz, Sharjah",Villa,3,2.0,2500.0,2375000.0,Active
+2025-05-09 19:12:24.602522621,"Jumeirah Beach Residence, Dubai",Apartment,4,2.5,2000.0,1845000.0,Active
+2025-05-09 23:31:52.170090189,"Business Bay, Dubai",Townhouse,1,3.0,1500.0,2050000.0,Active
+2025-05-10 03:51:19.737657756,"International City, Dubai",Apartment,3,3.0,1277.0,850000.0,Pending
+2025-05-10 08:10:47.305225324,"Jumeirah Beach Residence, Dubai",Apartment,1,2.0,951.0,995000.0,Active
+2025-05-10 12:30:14.872792892,"Al Khan, Sharjah",Villa,4,1.0,2500.0,2935000.0,Pending
+2025-05-10 16:49:42.440360459,"Al Khan, Sharjah",Townhouse,3,2.0,1500.0,1735000.0,Active
+2025-05-10 21:09:10.007928027,"Downtown Dubai, Dubai",Apartment,2,3.5,1327.0,1360000.0,Pending
+2025-05-11 01:28:37.575495594,"Business Bay, Dubai",Villa,3,2.5,2500.0,3765000.0,Active
+2025-05-11 05:48:05.143063162,"Jumeirah Beach Residence, Dubai",Villa,2,2.0,2500.0,4370000.0,Pending
+2025-05-11 10:07:32.710630729,"Jumeirah Beach Residence, Dubai",Apartment,2,2.0,1143.0,1385000.0,Active
+2025-05-11 14:27:00.278198297,"Dubai Marina, Dubai",Townhouse,3,2.0,1500.0,2550000.0,Active
+2025-05-11 18:46:27.845765865,"Arabian Ranches, Dubai",Townhouse,2,3.0,1500.0,1980000.0,Active
+2025-05-11 23:05:55.413333432,"Business Bay, Dubai",Villa,2,2.5,2500.0,3760000.0,Sold
+2025-05-12 03:25:22.980901000,"Dubai Marina, Dubai",Townhouse,2,3.0,1500.0,2515000.0,Active
+2025-05-12 07:44:50.548468567,"Jumeirah Beach Residence, Dubai",Townhouse,3,2.0,1708.0,2530000.0,Active
+2025-05-12 12:04:18.116036135,"Khalifa City, Abu Dhabi",Villa,2,2.5,2500.0,2935000.0,Pending
+2025-05-12 16:23:45.683603703,"Downtown Dubai, Dubai",Townhouse,1,2.0,1500.0,2225000.0,Active
+2025-05-12 20:43:13.251171270,"Dubai Marina, Dubai",Villa,3,3.0,,3825000.0,Active
+2025-05-13 01:02:40.818738838,"Business Bay, Dubai",Villa,3,2.0,2500.0,3795000.0,Active
+2025-05-13 05:22:08.386306405,"Muwaileh, Sharjah",Villa,1,2.0,2500.0,2035000.0,Active
+2025-05-13 09:41:35.953873973,"Downtown Dubai, Dubai",Townhouse,1,2.5,,2355000.0,Sold
+2025-05-13 14:01:03.521441540,"International City, Dubai",Apartment,1,3.5,645.0,510000.0,Pending
+2025-05-13 18:20:31.089009108,"Al Reem Island, Abu Dhabi",Townhouse,2,1.0,1500.0,2160000.0,Active
+2025-05-13 22:39:58.656576676,"Downtown Dubai, Dubai",Townhouse,2,3.0,1500.0,2450000.0,Sold
+2025-05-14 02:59:26.224144243,"Al Reem Island, Abu Dhabi",Apartment,3,2.0,1305.0,1310000.0,Active
+2025-05-14 07:18:53.791711811,"Jumeirah Beach Residence, Dubai",Townhouse,3,2.0,1936.0,2980000.0,Active
+2025-05-14 11:38:21.359279378,"Dubai Silicon Oasis, Dubai",Apartment,3,1.0,,1160000.0,Active
+2025-05-14 15:57:48.926846946,"Dubai Silicon Oasis, Dubai",Apartment,2,2.0,1139.0,870000.0,Active
+2025-05-14 20:17:16.494414513,"Business Bay, Dubai",Villa,3,2.0,2500.0,3940000.0,Active
+2025-05-15 00:36:44.061982081,"Dubai Marina, Dubai",Apartment,2,1.0,790.0,1265000.0,Sold
+2025-05-15 04:56:11.629549649,"Al Raha Beach, Abu Dhabi",Townhouse,5,2.0,3000.0,2710000.0,Pending
+2025-05-15 09:15:39.197117216,"Jumeirah Beach Residence, Dubai",Townhouse,3,3.5,1931.0,2820000.0,Active
+2025-05-15 13:35:06.764684784,"Downtown Dubai, Dubai",Villa,1,1.5,2500.0,4375000.0,Active
+2025-05-15 17:54:34.332252351,"Dubai Marina, Dubai",Apartment,3,3.0,1599.0,1605000.0,Pending
+2025-05-15 22:14:01.899819919,"Arabian Ranches, Dubai",Apartment,2,2.0,982.0,945000.0,Sold
+2025-05-16 02:33:29.467387486,"International City, Dubai",Villa,3,2.5,2500.0,2345000.0,Pending
+2025-05-16 06:52:57.034955054,"Dubai Marina, Dubai",Studio,1,2.0,600.0,440000.0,Active
+2025-05-16 11:12:24.602522622,"Business Bay, Dubai",Villa,1,1.5,2500.0,3665000.0,Pending
+2025-05-16 15:31:52.170090189,"Downtown Dubai, Dubai",Apartment,4,1.5,1727.0,2000000.0,Active
+2025-05-16 19:51:19.737657757,"Dubai Silicon Oasis, Dubai",Villa,1,1.0,2500.0,2540000.0,Active
+2025-05-17 00:10:47.305225324,"Downtown Dubai, Dubai",Villa,3,1.5,2500.0,4840000.0,Active
+2025-05-17 04:30:14.872792892,"International City, Dubai",Townhouse,2,2.5,1500.0,1185000.0,Active
+2025-05-17 08:49:42.440360459,"Palm Jumeirah, Dubai",Apartment,3,3.0,1197.0,1780000.0,Active
+2025-05-17 13:09:10.007928027,"Al Majaz, Sharjah",Townhouse,3,3.0,1500.0,1575000.0,Active
+2025-05-17 17:28:37.575495594,"Dubai Marina, Dubai",Villa,2,2.5,2500.0,3820000.0,Active
+2025-05-17 21:48:05.143063162,"Jumeirah Beach Residence, Dubai",Studio,2,1.5,600.0,590000.0,Pending
+2025-05-18 02:07:32.710630730,"Dubai Marina, Dubai",Apartment,1,2.0,969.0,1150000.0,Active
+2025-05-18 06:27:00.278198297,"Khalifa City, Abu Dhabi",Villa,0,2.0,2500.0,2365000.0,Active
+2025-05-18 10:46:27.845765865,"Yas Island, Abu Dhabi",Penthouse,2,2.0,2000.0,4500000.0,Active
+2025-05-18 15:05:55.413333432,"Downtown Dubai, Dubai",Apartment,3,2.0,1292.0,1540000.0,Sold
+2025-05-18 19:25:22.980901000,"Dubai Silicon Oasis, Dubai",Penthouse,4,2.0,3115.0,4155000.0,Active
+2025-05-18 23:44:50.548468567,"Al Raha Beach, Abu Dhabi",Villa,4,2.0,2500.0,3725000.0,Active
+2025-05-19 04:04:18.116036135,"Arabian Ranches, Dubai",Apartment,3,2.0,2000.0,1335000.0,Active
+2025-05-19 08:23:45.683603703,"Business Bay, Dubai",Apartment,3,3.0,1514.0,1365000.0,Pending
+2025-05-19 12:43:13.251171270,"Downtown Dubai, Dubai",Villa,3,3.0,2500.0,4290000.0,Sold
+2025-05-19 17:02:40.818738838,"Dubai Marina, Dubai",Apartment,2,2.0,1235.0,1225000.0,Active
+2025-05-19 21:22:08.386306405,"Yas Island, Abu Dhabi",Villa,4,3.5,2500.0,3955000.0,Active
+2025-05-20 01:41:35.953873973,"Khalifa City, Abu Dhabi",Apartment,3,4.0,1444.0,1095000.0,Sold
+2025-05-20 06:01:03.521441540,"Dubai Silicon Oasis, Dubai",Villa,2,2.0,2500.0,2645000.0,Active
+2025-05-20 10:20:31.089009108,"Jumeirah Beach Residence, Dubai",Apartment,1,2.0,764.0,965000.0,Active
+2025-05-20 14:39:58.656576676,"Jumeirah Beach Residence, Dubai",Townhouse,2,2.0,1500.0,2370000.0,Active
+2025-05-20 18:59:26.224144243,"Al Reem Island, Abu Dhabi",Studio,2,3.5,600.0,645000.0,Active
+2025-05-20 23:18:53.791711811,"Yas Island, Abu Dhabi",Studio,4,3.0,600.0,955000.0,Active
+2025-05-21 03:38:21.359279378,"Yas Island, Abu Dhabi",Villa,2,1.5,2500.0,3960000.0,Active
+2025-05-21 07:57:48.926846946,"Al Reem Island, Abu Dhabi",Apartment,2,2.0,674.0,975000.0,Active
+2025-05-21 12:17:16.494414513,"Dubai Silicon Oasis, Dubai",Townhouse,5,2.5,3000.0,2140000.0,Sold
+2025-05-21 16:36:44.061982081,"Dubai Marina, Dubai",Apartment,1,2.0,600.0,900000.0,Active
+2025-05-21 20:56:11.629549649,"Downtown Dubai, Dubai",Apartment,2,1.5,869.0,1210000.0,Pending
+2025-05-22 01:15:39.197117216,"Yas Island, Abu Dhabi",Apartment,0,3.0,600.0,720000.0,Active
+2025-05-22 05:35:06.764684784,"Arabian Ranches, Dubai",Apartment,3,2.5,1061.0,1250000.0,Active
+2025-05-22 09:54:34.332252351,"Dubai Marina, Dubai",Townhouse,4,3.0,1822.0,3045000.0,Active
+2025-05-22 14:14:01.899819919,"Dubai Marina, Dubai",Villa,2,3.0,2500.0,4330000.0,Sold
+2025-05-22 18:33:29.467387486,"Dubai Silicon Oasis, Dubai",Apartment,4,3.0,2000.0,1250000.0,Pending
+2025-05-22 22:52:57.034955054,"Dubai Marina, Dubai",Apartment,2,2.0,994.0,1265000.0,Active
+2025-05-23 03:12:24.602522622,"Downtown Dubai, Dubai",Studio,4,2.5,600.0,985000.0,Pending
+2025-05-23 07:31:52.170090189,"Arabian Ranches, Dubai",Apartment,3,1.5,1720.0,1245000.0,Active
+2025-05-23 11:51:19.737657757,"International City, Dubai",Apartment,3,2.5,1639.0,890000.0,Sold
+2025-05-23 16:10:47.305225324,"Dubai Silicon Oasis, Dubai",Apartment,0,1.5,600.0,485000.0,Pending
+2025-05-23 20:30:14.872792892,"Downtown Dubai, Dubai",Townhouse,5,2.5,2663.0,3460000.0,Sold
+2025-05-24 00:49:42.440360459,"International City, Dubai",Villa,3,2.0,2500.0,2185000.0,Active
+2025-05-24 05:09:10.007928027,"Downtown Dubai, Dubai",Apartment,2,1.5,1461.0,1535000.0,Active
+2025-05-24 09:28:37.575495595,"Jumeirah Beach Residence, Dubai",Apartment,3,1.5,1095.0,1485000.0,Active
+2025-05-24 13:48:05.143063162,"Al Reem Island, Abu Dhabi",Villa,2,1.0,2500.0,3590000.0,Active
+2025-05-24 18:07:32.710630730,"Dubai Silicon Oasis, Dubai",Villa,4,3.0,2500.0,3210000.0,Active
+2025-05-24 22:27:00.278198297,"Al Raha Beach, Abu Dhabi",Apartment,1,3.0,600.0,760000.0,Active
+2025-05-25 02:46:27.845765865,"Dubai Silicon Oasis, Dubai",Studio,3,2.0,600.0,545000.0,Active
+2025-05-25 07:05:55.413333432,"Arabian Ranches, Dubai",Apartment,2,,954.0,1070000.0,Active
+2025-05-25 11:25:22.980901000,"Dubai Marina, Dubai",Apartment,1,1.0,1024.0,1115000.0,Active
+2025-05-25 15:44:50.548468567,"Jumeirah Beach Residence, Dubai",Penthouse,1,1.0,2000.0,5520000.0,Active
+2025-05-25 20:04:18.116036135,"Downtown Dubai, Dubai",Apartment,0,1.5,600.0,795000.0,Sold
+2025-05-26 00:23:45.683603703,"Downtown Dubai, Dubai",Villa,2,3.0,2500.0,4505000.0,Active
+2025-05-26 04:43:13.251171270,"Al Khan, Sharjah",Apartment,2,2.0,1321.0,835000.0,Active
+2025-05-26 09:02:40.818738838,"Palm Jumeirah, Dubai",Apartment,2,2.0,987.0,1520000.0,Pending
+2025-05-26 13:22:08.386306405,"Yas Island, Abu Dhabi",Studio,2,1.5,600.0,550000.0,Active
+2025-05-26 17:41:35.953873973,"Dubai Silicon Oasis, Dubai",Apartment,2,2.0,1115.0,915000.0,Active
+2025-05-26 22:01:03.521441540,"Al Reem Island, Abu Dhabi",Townhouse,3,2.0,1858.0,2525000.0,Active
+2025-05-27 02:20:31.089009108,"Business Bay, Dubai",Apartment,0,2.5,600.0,690000.0,Active
+2025-05-27 06:39:58.656576676,"Arabian Ranches, Dubai",Apartment,4,2.0,1711.0,1485000.0,Sold
+2025-05-27 10:59:26.224144243,"Business Bay, Dubai",Apartment,4,1.0,2000.0,1660000.0,Active
+2025-05-27 15:18:53.791711811,"Downtown Dubai, Dubai",Villa,3,2.0,2500.0,4600000.0,Active
+2025-05-27 19:38:21.359279378,"Al Reem Island, Abu Dhabi",Apartment,2,2.0,1084.0,1245000.0,Active
+2025-05-27 23:57:48.926846946,"Jumeirah Beach Residence, Dubai",Townhouse,4,2.0,3000.0,12270357.242950596,Active
+2025-05-28 04:17:16.494414513,"Dubai Marina, Dubai",Apartment,1,4.0,600.0,960000.0,Pending
+2025-05-28 08:36:44.061982081,"Dubai Silicon Oasis, Dubai",Studio,1,2.5,600.0,335000.0,Active
+2025-05-28 12:56:11.629549649,"Downtown Dubai, Dubai",Apartment,1,2.5,923.0,1020000.0,Active
+2025-05-28 17:15:39.197117216,"Al Majaz, Sharjah",Townhouse,3,2.0,2281.0,1650000.0,Active
+2025-05-28 21:35:06.764684784,"Al Majaz, Sharjah",Townhouse,0,2.0,1500.0,1300000.0,Active
+2025-05-29 01:54:34.332252351,"Khalifa City, Abu Dhabi",Townhouse,2,2.0,1500.0,1615000.0,Active
+2025-05-29 06:14:01.899819919,"Palm Jumeirah, Dubai",Townhouse,5,,3000.0,3650000.0,Pending
+2025-05-29 10:33:29.467387486,"Dubai Marina, Dubai",Townhouse,4,3.0,2597.0,3095000.0,Pending
+2025-05-29 14:52:57.034955054,"Khalifa City, Abu Dhabi",Villa,2,1.5,2500.0,2705000.0,Sold
+2025-05-29 19:12:24.602522622,"Palm Jumeirah, Dubai",Apartment,1,2.0,765.0,1085000.0,Pending
+2025-05-29 23:31:52.170090189,"Al Khan, Sharjah",Apartment,3,2.0,840.0,810000.0,Active
+2025-05-30 03:51:19.737657757,"Al Khan, Sharjah",Penthouse,2,3.0,2000.0,2960000.0,Active
+2025-05-30 08:10:47.305225324,"Al Raha Beach, Abu Dhabi",Villa,1,2.5,2500.0,3575000.0,Pending
+2025-05-30 12:30:14.872792892,"Jumeirah Beach Residence, Dubai",Townhouse,1,2.0,1500.0,2435000.0,Pending
+2025-05-30 16:49:42.440360459,"Palm Jumeirah, Dubai",Apartment,4,1.5,,2235000.0,Pending
+2025-05-30 21:09:10.007928027,"Al Raha Beach, Abu Dhabi",Apartment,3,2.5,1397.0,1175000.0,Active
+2025-05-31 01:28:37.575495595,"Jumeirah Beach Residence, Dubai",Apartment,3,1.5,1479.0,1620000.0,Active
+2025-05-31 05:48:05.143063162,"Downtown Dubai, Dubai",Villa,4,2.0,3495.0,5355000.0,Pending
+2025-05-31 10:07:32.710630730,"Arabian Ranches, Dubai",Apartment,2,1.5,933.0,1070000.0,Pending
+2025-05-31 14:27:00.278198297,"Al Majaz, Sharjah",Apartment,2,2.5,989.0,690000.0,Sold
+2025-05-31 18:46:27.845765865,"International City, Dubai",Apartment,2,2.0,1070.0,690000.0,Active
+2025-05-31 23:05:55.413333432,"Arabian Ranches, Dubai",Apartment,2,2.0,1268.0,1180000.0,Active
+2025-06-01 03:25:22.980901000,"Dubai Marina, Dubai",Villa,2,3.0,2500.0,4110000.0,Active
+2025-06-01 07:44:50.548468568,"Dubai Silicon Oasis, Dubai",Apartment,3,2.0,1212.0,4705880.7202335,Pending
+2025-06-01 12:04:18.116036135,"Muwaileh, Sharjah",Townhouse,3,2.0,1500.0,1380000.0,Active
+2025-06-01 16:23:45.683603703,"Dubai Marina, Dubai",Apartment,4,2.0,2000.0,1870000.0,Active
+2025-06-01 20:43:13.251171270,"Business Bay, Dubai",Apartment,2,1.0,1084.0,1045000.0,Sold
+2025-06-02 01:02:40.818738838,"Yas Island, Abu Dhabi",Apartment,3,3.0,1727.0,1530000.0,Active
+2025-06-02 05:22:08.386306405,"Al Reem Island, Abu Dhabi",Apartment,3,1.0,1725.0,1365000.0,Pending
+2025-06-02 09:41:35.953873973,"International City, Dubai",Apartment,2,2.0,744.0,605000.0,Active
+2025-06-02 14:01:03.521441541,"International City, Dubai",Apartment,3,2.5,1919.0,865000.0,Pending
+2025-06-02 18:20:31.089009108,"Jumeirah Beach Residence, Dubai",Villa,1,2.5,2500.0,16884433.40036497,Active
+2025-06-02 22:39:58.656576676,"Jumeirah Beach Residence, Dubai",Apartment,2,2.5,1376.0,1245000.0,Sold
+2025-06-03 02:59:26.224144243,"Al Raha Beach, Abu Dhabi",Villa,1,2.0,2500.0,3420000.0,Sold
+2025-06-03 07:18:53.791711811,"Al Raha Beach, Abu Dhabi",Townhouse,2,1.0,1500.0,2175000.0,Active
+2025-06-03 11:38:21.359279378,"Yas Island, Abu Dhabi",Townhouse,2,3.0,1500.0,2085000.0,Active
+2025-06-03 15:57:48.926846946,"Khalifa City, Abu Dhabi",Apartment,3,2.0,2000.0,1085000.0,Active
+2025-06-03 20:17:16.494414513,"Business Bay, Dubai",Apartment,5,3.0,2000.0,1730000.0,Active
+2025-06-04 00:36:44.061982081,"Business Bay, Dubai",Apartment,3,3.0,1570.0,1550000.0,Pending
+2025-06-04 04:56:11.629549649,"Al Reem Island, Abu Dhabi",Apartment,3,3.0,2000.0,1580000.0,Active
+2025-06-04 09:15:39.197117216,"Dubai Silicon Oasis, Dubai",Studio,2,2.0,600.0,440000.0,Active
+2025-06-04 13:35:06.764684784,"International City, Dubai",Apartment,3,2.0,1772.0,810000.0,Active
+2025-06-04 17:54:34.332252351,"Al Reem Island, Abu Dhabi",Apartment,1,3.0,600.0,890000.0,Pending
+2025-06-04 22:14:01.899819919,"Yas Island, Abu Dhabi",Villa,2,2.0,2500.0,4015000.0,Sold
+2025-06-05 02:33:29.467387486,"Jumeirah Beach Residence, Dubai",Villa,2,1.5,2500.0,4315000.0,Active
+2025-06-05 06:52:57.034955054,"Palm Jumeirah, Dubai",Villa,2,3.0,2500.0,4790000.0,Active
+2025-06-05 11:12:24.602522622,"Dubai Marina, Dubai",Apartment,0,3.0,600.0,2235319.5552747194,Active
+2025-06-05 15:31:52.170090189,"Arabian Ranches, Dubai",Apartment,1,2.0,721.0,760000.0,Active
+2025-06-05 19:51:19.737657757,"Dubai Marina, Dubai",Villa,2,1.0,2500.0,3685000.0,Active
+2025-06-06 00:10:47.305225324,"Business Bay, Dubai",Apartment,5,2.0,2000.0,1770000.0,Active
+2025-06-06 04:30:14.872792892,"Arabian Ranches, Dubai",Apartment,2,3.0,871.0,925000.0,Active
+2025-06-06 08:49:42.440360459,"Jumeirah Beach Residence, Dubai",Apartment,2,3.5,1077.0,1185000.0,Active
+2025-06-06 13:09:10.007928027,"Arabian Ranches, Dubai",Apartment,1,2.0,600.0,775000.0,Active
+2025-06-06 17:28:37.575495595,"Dubai Marina, Dubai",Apartment,3,1.0,1483.0,1670000.0,Active
+2025-06-06 21:48:05.143063162,"Dubai Marina, Dubai",Apartment,2,3.0,1017.0,1255000.0,Active
+2025-06-07 02:07:32.710630730,"Al Raha Beach, Abu Dhabi",Villa,1,2.0,2500.0,3515000.0,Pending
+2025-06-07 06:27:00.278198298,"Jumeirah Beach Residence, Dubai",Villa,2,2.0,2500.0,4220000.0,Pending
+2025-06-07 10:46:27.845765865,"Dubai Marina, Dubai",Townhouse,0,,1500.0,1950000.0,Active
+2025-06-07 15:05:55.413333433,"Business Bay, Dubai",Apartment,0,1.0,600.0,755000.0,Active
+2025-06-07 19:25:22.980901000,"Al Reem Island, Abu Dhabi",Apartment,1,2.5,600.0,825000.0,Pending
+2025-06-07 23:44:50.548468568,"Downtown Dubai, Dubai",Apartment,0,1.0,655.0,885000.0,Sold
+2025-06-08 04:04:18.116036135,"Dubai Silicon Oasis, Dubai",Villa,1,2.0,2500.0,2610000.0,Active
+2025-06-08 08:23:45.683603703,"Dubai Marina, Dubai",Villa,2,3.0,2500.0,4455000.0,Active
+2025-06-08 12:43:13.251171271,"Dubai Marina, Dubai",Apartment,3,2.0,1605.0,1500000.0,Active
+2025-06-08 17:02:40.818738838,"Business Bay, Dubai",Penthouse,2,4.0,2000.0,4575000.0,Active
+2025-06-08 21:22:08.386306406,"Arabian Ranches, Dubai",Apartment,2,2.5,1439.0,1255000.0,Active
+2025-06-09 01:41:35.953873973,"Dubai Silicon Oasis, Dubai",Villa,2,2.0,,2535000.0,Active
+2025-06-09 06:01:03.521441541,"Al Reem Island, Abu Dhabi",Villa,4,2.0,2578.0,4210000.0,Active
+2025-06-09 10:20:31.089009108,"Al Khan, Sharjah",Townhouse,2,2.0,1500.0,1560000.0,Active
+2025-06-09 14:39:58.656576676,"Business Bay, Dubai",Villa,1,2.0,2500.0,3835000.0,Active
+2025-06-09 18:59:26.224144243,"Jumeirah Beach Residence, Dubai",Townhouse,3,1.0,1500.0,2825000.0,Active
+2025-06-09 23:18:53.791711811,"Al Reem Island, Abu Dhabi",Apartment,1,2.0,638.0,960000.0,Active
+2025-06-10 03:38:21.359279379,"Jumeirah Beach Residence, Dubai",Townhouse,2,2.0,1500.0,2215000.0,Active
+2025-06-10 07:57:48.926846946,"Palm Jumeirah, Dubai",Apartment,2,3.0,1009.0,1505000.0,Active
+2025-06-10 12:17:16.494414514,"Dubai Marina, Dubai",Townhouse,4,2.5,2390.0,11524566.970846025,Pending
+2025-06-10 16:36:44.061982081,"Dubai Marina, Dubai",Villa,2,3.0,2500.0,4170000.0,Active
+2025-06-10 20:56:11.629549649,"Al Khan, Sharjah",Townhouse,3,1.0,1575.0,1485000.0,Pending
+2025-06-11 01:15:39.197117216,"Al Raha Beach, Abu Dhabi",Apartment,5,2.0,2000.0,1755000.0,Sold
+2025-06-11 05:35:06.764684784,"International City, Dubai",Villa,1,2.5,2500.0,2300000.0,Active
+2025-06-11 09:54:34.332252352,"Palm Jumeirah, Dubai",Villa,2,2.0,2500.0,5055000.0,Active
+2025-06-11 14:14:01.899819919,"Downtown Dubai, Dubai",Villa,2,1.0,2500.0,4310000.0,Active
+2025-06-11 18:33:29.467387487,"Downtown Dubai, Dubai",Apartment,2,3.0,1295.0,1290000.0,Pending
+2025-06-11 22:52:57.034955054,"Downtown Dubai, Dubai",Apartment,2,3.0,678.0,1170000.0,Sold
+2025-06-12 03:12:24.602522622,"Arabian Ranches, Dubai",Apartment,4,2.0,2000.0,1675000.0,Pending
+2025-06-12 07:31:52.170090189,"International City, Dubai",Apartment,3,1.0,2000.0,955000.0,Active
+2025-06-12 11:51:19.737657757,"Dubai Silicon Oasis, Dubai",Townhouse,3,3.0,1509.0,1775000.0,Active
+2025-06-12 16:10:47.305225325,"Jumeirah Beach Residence, Dubai",Apartment,2,2.5,,995000.0,Active
+2025-06-12 20:30:14.872792892,"Al Majaz, Sharjah",Studio,3,3.0,600.0,480000.0,Active
+2025-06-13 00:49:42.440360460,"Al Reem Island, Abu Dhabi",Apartment,5,3.0,2000.0,1850000.0,Active
+2025-06-13 05:09:10.007928027,"Arabian Ranches, Dubai",Apartment,3,3.0,1296.0,1355000.0,Active
+2025-06-13 09:28:37.575495595,"Dubai Silicon Oasis, Dubai",Townhouse,0,2.0,1500.0,1505000.0,Pending
+2025-06-13 13:48:05.143063162,"Palm Jumeirah, Dubai",Villa,3,1.5,2500.0,4670000.0,Active
+2025-06-13 18:07:32.710630730,"Downtown Dubai, Dubai",Apartment,1,2.5,799.0,1085000.0,Active
+2025-06-13 22:27:00.278198298,"Jumeirah Beach Residence, Dubai",Villa,2,2.5,2500.0,3700000.0,Active
+2025-06-14 02:46:27.845765865,"Al Reem Island, Abu Dhabi",Villa,1,,2500.0,3935000.0,Pending
+2025-06-14 07:05:55.413333433,"Dubai Marina, Dubai",Apartment,3,1.5,1501.0,1500000.0,Pending
+2025-06-14 11:25:22.980901000,"Dubai Marina, Dubai",Studio,3,1.5,600.0,790000.0,Active
+2025-06-14 15:44:50.548468568,"Dubai Marina, Dubai",Studio,1,3.0,600.0,465000.0,Active
+2025-06-14 20:04:18.116036135,"Dubai Marina, Dubai",Villa,2,3.0,2500.0,4195000.0,Active
+2025-06-15 00:23:45.683603703,"Al Raha Beach, Abu Dhabi",Apartment,2,3.5,1202.0,1125000.0,Sold
+2025-06-15 04:43:13.251171271,"International City, Dubai",Villa,2,3.0,2500.0,2275000.0,Active
+2025-06-15 09:02:40.818738838,"Business Bay, Dubai",Apartment,1,2.5,822.0,885000.0,Active
+2025-06-15 13:22:08.386306406,"Dubai Marina, Dubai",Apartment,2,2.5,1090.0,1205000.0,Active
+2025-06-15 17:41:35.953873973,"Business Bay, Dubai",Apartment,3,3.0,1545.0,1330000.0,Active
+2025-06-15 22:01:03.521441541,"Business Bay, Dubai",Apartment,1,2.5,646.0,905000.0,Pending
+2025-06-16 02:20:31.089009108,"Downtown Dubai, Dubai",Townhouse,1,2.5,1500.0,2220000.0,Active
+2025-06-16 06:39:58.656576676,"Palm Jumeirah, Dubai",Villa,2,1.5,2500.0,4765000.0,Active
+2025-06-16 10:59:26.224144244,"Palm Jumeirah, Dubai",Villa,4,2.0,2522.0,5415000.0,Active
+2025-06-16 15:18:53.791711811,"Dubai Silicon Oasis, Dubai",Apartment,3,,1615.0,1180000.0,Active
+2025-06-16 19:38:21.359279379,"Dubai Silicon Oasis, Dubai",Apartment,3,2.0,1449.0,1045000.0,Sold
+2025-06-16 23:57:48.926846946,"Dubai Marina, Dubai",Apartment,2,2.0,825.0,1155000.0,Active
+2025-06-17 04:17:16.494414514,"Palm Jumeirah, Dubai",Studio,2,2.0,600.0,675000.0,Pending
+2025-06-17 08:36:44.061982081,"Dubai Silicon Oasis, Dubai",Apartment,0,2.0,600.0,560000.0,Pending
+2025-06-17 12:56:11.629549649,"Business Bay, Dubai",Townhouse,3,2.0,1750.0,2615000.0,Active
+2025-06-17 17:15:39.197117216,"Al Raha Beach, Abu Dhabi",Villa,4,2.0,2500.0,3500000.0,Active
+2025-06-17 21:35:06.764684784,"Dubai Silicon Oasis, Dubai",Apartment,3,3.5,1966.0,1155000.0,Active
+2025-06-18 01:54:34.332252352,"Downtown Dubai, Dubai",Villa,4,2.0,2500.0,5015000.0,Pending
+2025-06-18 06:14:01.899819919,"Dubai Marina, Dubai",Apartment,3,1.5,2000.0,1830000.0,Active
+2025-06-18 10:33:29.467387487,"Dubai Silicon Oasis, Dubai",Townhouse,1,1.0,1500.0,1490000.0,Active
+2025-06-18 14:52:57.034955054,"Dubai Marina, Dubai",Penthouse,4,2.5,2717.0,5790000.0,Active
+2025-06-18 19:12:24.602522622,"Arabian Ranches, Dubai",Apartment,1,2.0,771.0,785000.0,Pending
+2025-06-18 23:31:52.170090189,"Al Majaz, Sharjah",Apartment,2,3.0,940.0,680000.0,Active
+2025-06-19 03:51:19.737657757,"Arabian Ranches, Dubai",Villa,1,2.5,2500.0,3565000.0,Active
+2025-06-19 08:10:47.305225325,"Palm Jumeirah, Dubai",Penthouse,0,,2000.0,5985000.0,Active
+2025-06-19 12:30:14.872792892,"Dubai Silicon Oasis, Dubai",Apartment,2,2.0,656.0,810000.0,Active
+2025-06-19 16:49:42.440360460,"Business Bay, Dubai",Villa,2,2.5,2500.0,3400000.0,Pending
+2025-06-19 21:09:10.007928027,"Arabian Ranches, Dubai",Villa,2,2.0,2500.0,3660000.0,Active
+2025-06-20 01:28:37.575495595,"Al Majaz, Sharjah",Villa,2,3.5,2500.0,2460000.0,Pending
+2025-06-20 05:48:05.143063162,"Palm Jumeirah, Dubai",Apartment,0,2.5,612.0,875000.0,Active
+2025-06-20 10:07:32.710630730,"Al Khan, Sharjah",Villa,1,2.0,2500.0,2420000.0,Active
+2025-06-20 14:27:00.278198298,"Khalifa City, Abu Dhabi",Penthouse,2,2.0,2000.0,3300000.0,Active
+2025-06-20 18:46:27.845765865,"Downtown Dubai, Dubai",Apartment,2,1.5,1060.0,1405000.0,Active
+2025-06-20 23:05:55.413333433,"Dubai Marina, Dubai",Apartment,3,2.5,2000.0,1730000.0,Active
+2025-06-21 03:25:22.980901000,"Dubai Marina, Dubai",Studio,3,2.0,600.0,745000.0,Active
+2025-06-21 07:44:50.548468568,"Dubai Marina, Dubai",Apartment,3,2.5,1284.0,1380000.0,Active
+2025-06-21 12:04:18.116036135,"Dubai Marina, Dubai",Townhouse,3,2.0,2049.0,2585000.0,Active
+2025-06-21 16:23:45.683603703,"International City, Dubai",Apartment,2,2.5,1471.0,675000.0,Active
+2025-06-21 20:43:13.251171271,"Dubai Marina, Dubai",Apartment,3,3.0,1568.0,1590000.0,Sold
+2025-06-22 01:02:40.818738838,"Jumeirah Beach Residence, Dubai",Townhouse,2,3.0,1500.0,2590000.0,Active
+2025-06-22 05:22:08.386306406,"Al Raha Beach, Abu Dhabi",Apartment,2,3.0,1519.0,1065000.0,Active
+2025-06-22 09:41:35.953873973,"Dubai Marina, Dubai",Villa,3,1.5,2500.0,3825000.0,Active
+2025-06-22 14:01:03.521441541,"Al Raha Beach, Abu Dhabi",Apartment,2,1.0,1235.0,1115000.0,Pending
+2025-06-22 18:20:31.089009108,"Jumeirah Beach Residence, Dubai",Villa,3,2.5,2500.0,4475000.0,Pending
+2025-06-22 22:39:58.656576676,"Dubai Marina, Dubai",Apartment,3,2.0,1585.0,1515000.0,Active
+2025-06-23 02:59:26.224144244,"International City, Dubai",Apartment,4,2.0,2000.0,970000.0,Pending
+2025-06-23 07:18:53.791711811,"Dubai Silicon Oasis, Dubai",Studio,4,1.0,600.0,670000.0,Active
+2025-06-23 11:38:21.359279379,"Yas Island, Abu Dhabi",Apartment,2,2.0,1390.0,1190000.0,Active
+2025-06-23 15:57:48.926846946,"Al Reem Island, Abu Dhabi",Villa,2,1.0,2500.0,3385000.0,Pending
+2025-06-23 20:17:16.494414514,"Al Raha Beach, Abu Dhabi",Apartment,2,3.0,,1050000.0,Pending
+2025-06-24 00:36:44.061982081,"Jumeirah Beach Residence, Dubai",Townhouse,2,2.0,1500.0,2485000.0,Active
+2025-06-24 04:56:11.629549649,"Downtown Dubai, Dubai",Apartment,3,2.5,1693.0,1755000.0,Pending
+2025-06-24 09:15:39.197117217,"Al Reem Island, Abu Dhabi",Studio,3,1.0,600.0,765000.0,Active
+2025-06-24 13:35:06.764684784,"Al Raha Beach, Abu Dhabi",Apartment,3,2.5,2000.0,1490000.0,Pending
+2025-06-24 17:54:34.332252352,"Muwaileh, Sharjah",Apartment,2,2.0,877.0,600000.0,Active
+2025-06-24 22:14:01.899819919,"Palm Jumeirah, Dubai",Apartment,1,3.0,694.0,1080000.0,Active
+2025-06-25 02:33:29.467387487,"Palm Jumeirah, Dubai",Apartment,2,3.0,993.0,1300000.0,Active
+2025-06-25 06:52:57.034955054,"Al Reem Island, Abu Dhabi",Villa,1,2.0,2500.0,3330000.0,Active
+2025-06-25 11:12:24.602522622,"Jumeirah Beach Residence, Dubai",Apartment,4,3.5,2000.0,1925000.0,Active
+2025-06-25 15:31:52.170090190,"Al Majaz, Sharjah",Townhouse,2,4.0,1602.0,1620000.0,Active
+2025-06-25 19:51:19.737657757,"Al Raha Beach, Abu Dhabi",Apartment,1,3.0,600.0,865000.0,Active
+2025-06-26 00:10:47.305225325,"Palm Jumeirah, Dubai",Apartment,0,3.0,,925000.0,Active
+2025-06-26 04:30:14.872792892,"Al Reem Island, Abu Dhabi",Villa,3,2.0,2500.0,3635000.0,Active
+2025-06-26 08:49:42.440360460,"Al Reem Island, Abu Dhabi",Villa,3,2.5,2500.0,3575000.0,Active
+2025-06-26 13:09:10.007928027,"Dubai Marina, Dubai",Apartment,2,1.0,1077.0,1325000.0,Active
+2025-06-26 17:28:37.575495595,"Khalifa City, Abu Dhabi",Apartment,1,1.0,600.0,660000.0,Pending
+2025-06-26 21:48:05.143063162,"Business Bay, Dubai",Apartment,2,4.0,1146.0,1200000.0,Pending
+2025-06-27 02:07:32.710630730,"Al Raha Beach, Abu Dhabi",Villa,2,2.0,2500.0,3620000.0,Pending
+2025-06-27 06:27:00.278198298,"Jumeirah Beach Residence, Dubai",Villa,3,3.0,2500.0,4375000.0,Active
+2025-06-27 10:46:27.845765865,"Yas Island, Abu Dhabi",Apartment,3,3.0,1958.0,1665000.0,Pending
+2025-06-27 15:05:55.413333433,"Palm Jumeirah, Dubai",Townhouse,2,3.0,1500.0,2550000.0,Active
+2025-06-27 19:25:22.980901000,"Dubai Marina, Dubai",Townhouse,1,4.0,1500.0,2380000.0,Active
+2025-06-27 23:44:50.548468568,"Khalifa City, Abu Dhabi",Villa,5,2.0,3660.0,3625000.0,Active
+2025-06-28 04:04:18.116036135,"Dubai Marina, Dubai",Townhouse,2,1.0,1500.0,2320000.0,Pending
+2025-06-28 08:23:45.683603703,"Jumeirah Beach Residence, Dubai",Apartment,3,2.0,1667.0,1640000.0,Active
+2025-06-28 12:43:13.251171271,"Al Majaz, Sharjah",Apartment,1,1.5,835.0,600000.0,Active
+2025-06-28 17:02:40.818738838,"Al Majaz, Sharjah",Apartment,2,1.0,1040.0,830000.0,Active
+2025-06-28 21:22:08.386306406,"Arabian Ranches, Dubai",Apartment,0,2.0,600.0,600000.0,Pending
+2025-06-29 01:41:35.953873973,"Dubai Silicon Oasis, Dubai",Villa,2,3.0,2500.0,2850000.0,Active
+2025-06-29 06:01:03.521441541,"Palm Jumeirah, Dubai",Penthouse,5,2.5,3635.0,6660000.0,Active
+2025-06-29 10:20:31.089009108,"Jumeirah Beach Residence, Dubai",Apartment,2,2.0,845.0,1220000.0,Active
+2025-06-29 14:39:58.656576676,"Jumeirah Beach Residence, Dubai",Apartment,0,,600.0,730000.0,Active
+2025-06-29 18:59:26.224144244,"International City, Dubai",Apartment,0,2.0,600.0,400000.0,Active
+2025-06-29 23:18:53.791711811,"Al Reem Island, Abu Dhabi",Penthouse,2,1.0,2000.0,4785000.0,Active
+2025-06-30 03:38:21.359279379,"Al Reem Island, Abu Dhabi",Apartment,1,3.0,600.0,935000.0,Pending
+2025-06-30 07:57:48.926846946,"Al Reem Island, Abu Dhabi",Villa,0,2.5,2500.0,3250000.0,Active
+2025-06-30 12:17:16.494414514,"Dubai Marina, Dubai",Apartment,3,3.0,2000.0,1580000.0,Active
+2025-06-30 16:36:44.061982081,"Business Bay, Dubai",Apartment,2,1.0,1366.0,1300000.0,Active
+2025-06-30 20:56:11.629549649,"Dubai Marina, Dubai",Studio,2,3.0,600.0,635000.0,Active
+2025-07-01 01:15:39.197117217,"Arabian Ranches, Dubai",Studio,4,2.5,600.0,870000.0,Active
+2025-07-01 05:35:06.764684784,"Palm Jumeirah, Dubai",Apartment,1,2.5,710.0,1040000.0,Active
+2025-07-01 09:54:34.332252352,"Yas Island, Abu Dhabi",Studio,5,2.5,600.0,1050000.0,Active
+2025-07-01 14:14:01.899819919,"Jumeirah Beach Residence, Dubai",Villa,2,3.0,2500.0,3835000.0,Pending
+2025-07-01 18:33:29.467387487,"Dubai Marina, Dubai",Townhouse,4,2.5,2040.0,2710000.0,Active
+2025-07-01 22:52:57.034955054,"Dubai Marina, Dubai",Apartment,3,2.5,1971.0,1755000.0,Active
+2025-07-02 03:12:24.602522622,"Al Reem Island, Abu Dhabi",Villa,3,4.0,,3955000.0,Pending
+2025-07-02 07:31:52.170090190,"Dubai Silicon Oasis, Dubai",Apartment,5,3.0,2000.0,1465000.0,Active
+2025-07-02 11:51:19.737657757,"Dubai Marina, Dubai",Villa,2,2.0,2500.0,3895000.0,Pending
+2025-07-02 16:10:47.305225325,"Dubai Marina, Dubai",Apartment,5,,2000.0,1995000.0,Active
+2025-07-02 20:30:14.872792892,"International City, Dubai",Apartment,2,2.0,804.0,610000.0,Active
+2025-07-03 00:49:42.440360460,"Dubai Marina, Dubai",Apartment,2,2.0,1351.0,1465000.0,Pending
+2025-07-03 05:09:10.007928027,"Al Raha Beach, Abu Dhabi",Villa,2,2.5,2500.0,3285000.0,Active
+2025-07-03 09:28:37.575495595,"International City, Dubai",Apartment,2,3.5,905.0,615000.0,Active
+2025-07-03 13:48:05.143063163,"Dubai Marina, Dubai",Villa,1,3.5,2500.0,3780000.0,Pending
+2025-07-03 18:07:32.710630730,"Dubai Marina, Dubai",Studio,2,2.0,600.0,645000.0,Active
+2025-07-03 22:27:00.278198298,"Muwaileh, Sharjah",Apartment,2,2.0,1054.0,635000.0,Active
+2025-07-04 02:46:27.845765865,"Palm Jumeirah, Dubai",Villa,3,2.0,2500.0,5255000.0,Active
+2025-07-04 07:05:55.413333433,"Palm Jumeirah, Dubai",Apartment,3,4.0,1384.0,1655000.0,Pending
+2025-07-04 11:25:22.980901000,"Al Raha Beach, Abu Dhabi",Townhouse,2,4.0,1509.0,2215000.0,Sold
+2025-07-04 15:44:50.548468568,"Al Majaz, Sharjah",Apartment,2,2.5,1100.0,710000.0,Active
+2025-07-04 20:04:18.116036135,"Muwaileh, Sharjah",Villa,2,3.0,2500.0,2250000.0,Active
+2025-07-05 00:23:45.683603703,"Al Reem Island, Abu Dhabi",Townhouse,1,3.0,1500.0,2265000.0,Sold
+2025-07-05 04:43:13.251171271,"Palm Jumeirah, Dubai",Penthouse,1,2.5,2000.0,5420000.0,Active
+2025-07-05 09:02:40.818738838,"Dubai Marina, Dubai",Villa,2,1.0,2500.0,4430000.0,Active
+2025-07-05 13:22:08.386306406,"Al Reem Island, Abu Dhabi",Apartment,2,2.0,830.0,1065000.0,Pending
+2025-07-05 17:41:35.953873973,"Arabian Ranches, Dubai",Villa,5,2.5,3209.0,4375000.0,Pending
+2025-07-05 22:01:03.521441541,"Palm Jumeirah, Dubai",Townhouse,2,2.5,1500.0,2895000.0,Pending
+2025-07-06 02:20:31.089009108,"Khalifa City, Abu Dhabi",Villa,2,,2500.0,2690000.0,Active
+2025-07-06 06:39:58.656576676,"Dubai Marina, Dubai",Apartment,2,3.5,1064.0,1165000.0,Active
+2025-07-06 10:59:26.224144244,"Business Bay, Dubai",Penthouse,1,1.5,2000.0,4460000.0,Active
+2025-07-06 15:18:53.791711811,"Dubai Marina, Dubai",Villa,2,2.0,2500.0,16174994.888487497,Active
+2025-07-06 19:38:21.359279379,"Business Bay, Dubai",Villa,3,2.5,2500.0,3605000.0,Active
+2025-07-06 23:57:48.926846946,"Dubai Marina, Dubai",Apartment,2,2.5,902.0,1095000.0,Pending
+2025-07-07 04:17:16.494414514,"Dubai Marina, Dubai",Villa,2,2.5,2500.0,3985000.0,Active
+2025-07-07 08:36:44.061982081,"Dubai Marina, Dubai",Apartment,5,2.0,2000.0,2135000.0,Pending
+2025-07-07 12:56:11.629549649,"Dubai Silicon Oasis, Dubai",Villa,4,1.5,2947.0,2895000.0,Active
+2025-07-07 17:15:39.197117217,"Al Reem Island, Abu Dhabi",Apartment,3,2.5,1188.0,1230000.0,Active
+2025-07-07 21:35:06.764684784,"Arabian Ranches, Dubai",Villa,2,2.5,2500.0,3525000.0,Active
+2025-07-08 01:54:34.332252352,"Al Khan, Sharjah",Studio,3,1.5,600.0,460000.0,Active
+2025-07-08 06:14:01.899819919,"Palm Jumeirah, Dubai",Apartment,1,3.0,707.0,1030000.0,Active
+2025-07-08 10:33:29.467387487,"Jumeirah Beach Residence, Dubai",Studio,2,2.0,600.0,595000.0,Sold
+2025-07-08 14:52:57.034955054,"Yas Island, Abu Dhabi",Apartment,0,2.5,600.0,780000.0,Pending
+2025-07-08 19:12:24.602522622,"Downtown Dubai, Dubai",Townhouse,2,,1500.0,2780000.0,Active
+2025-07-08 23:31:52.170090190,"Al Khan, Sharjah",Townhouse,2,1.5,1500.0,1450000.0,Active
+2025-07-09 03:51:19.737657757,"Dubai Marina, Dubai",Villa,1,1.0,2500.0,4015000.0,Sold
+2025-07-09 08:10:47.305225325,"Al Khan, Sharjah",Villa,5,3.0,3057.0,2915000.0,Active
+2025-07-09 12:30:14.872792892,"Dubai Marina, Dubai",Townhouse,4,2.5,2798.0,3270000.0,Active
+2025-07-09 16:49:42.440360460,"Yas Island, Abu Dhabi",Apartment,3,2.5,1409.0,1445000.0,Active
+2025-07-09 21:09:10.007928027,"Business Bay, Dubai",Apartment,2,3.0,1052.0,1175000.0,Sold
+2025-07-10 01:28:37.575495595,"Muwaileh, Sharjah",Villa,4,3.0,2872.0,2300000.0,Active
+2025-07-10 05:48:05.143063163,"Dubai Marina, Dubai",Townhouse,1,4.0,1500.0,2060000.0,Active
+2025-07-10 10:07:32.710630730,"Arabian Ranches, Dubai",Townhouse,3,2.0,1680.0,6671243.609961231,Sold
+2025-07-10 14:27:00.278198298,"Al Khan, Sharjah",Townhouse,1,2.0,1500.0,1505000.0,Active
+2025-07-10 18:46:27.845765865,"Business Bay, Dubai",Apartment,3,2.0,1711.0,1505000.0,Active
+2025-07-10 23:05:55.413333433,"Dubai Silicon Oasis, Dubai",Townhouse,2,1.5,1500.0,1790000.0,Active
+2025-07-11 03:25:22.980901000,"International City, Dubai",Apartment,4,2.5,2000.0,1100000.0,Pending
+2025-07-11 07:44:50.548468568,"Business Bay, Dubai",Villa,4,2.0,2500.0,3755000.0,Active
+2025-07-11 12:04:18.116036136,"Dubai Silicon Oasis, Dubai",Apartment,1,3.5,672.0,690000.0,Sold
+2025-07-11 16:23:45.683603703,"Arabian Ranches, Dubai",Apartment,2,2.5,902.0,1040000.0,Active
+2025-07-11 20:43:13.251171271,"Khalifa City, Abu Dhabi",Apartment,5,2.5,2000.0,1530000.0,Active
+2025-07-12 01:02:40.818738838,"Dubai Marina, Dubai",Apartment,2,2.0,937.0,1320000.0,Sold
+2025-07-12 05:22:08.386306406,"Jumeirah Beach Residence, Dubai",Villa,4,1.0,2500.0,4525000.0,Active
+2025-07-12 09:41:35.953873973,"Al Majaz, Sharjah",Apartment,2,1.0,,740000.0,Active
+2025-07-12 14:01:03.521441541,"Yas Island, Abu Dhabi",Apartment,2,2.0,1142.0,1240000.0,Active
+2025-07-12 18:20:31.089009108,"Business Bay, Dubai",Apartment,2,1.0,1256.0,1110000.0,Active
+2025-07-12 22:39:58.656576676,"Dubai Silicon Oasis, Dubai",Apartment,1,2.5,635.0,695000.0,Active
+2025-07-13 02:59:26.224144244,"Jumeirah Beach Residence, Dubai",Apartment,3,3.0,1722.0,1745000.0,Active
+2025-07-13 07:18:53.791711811,"Downtown Dubai, Dubai",Apartment,2,3.0,1210.0,1355000.0,Active
+2025-07-13 11:38:21.359279379,"Business Bay, Dubai",Villa,2,2.5,2500.0,3835000.0,Pending
+2025-07-13 15:57:48.926846946,"Jumeirah Beach Residence, Dubai",Villa,2,2.0,2500.0,3995000.0,Active
+2025-07-13 20:17:16.494414514,"Arabian Ranches, Dubai",Villa,2,3.0,2500.0,3385000.0,Sold
+2025-07-14 00:36:44.061982081,"Dubai Marina, Dubai",Apartment,4,3.0,2000.0,1790000.0,Active
+2025-07-14 04:56:11.629549649,"Al Khan, Sharjah",Apartment,5,1.5,2000.0,1305000.0,Active
+2025-07-14 09:15:39.197117217,"Muwaileh, Sharjah",Townhouse,2,3.0,1500.0,5092562.875999377,Active
+2025-07-14 13:35:06.764684784,"International City, Dubai",Villa,3,2.0,2500.0,2465000.0,Active
+2025-07-14 17:54:34.332252352,"Business Bay, Dubai",Apartment,3,3.0,2000.0,1470000.0,Active
+2025-07-14 22:14:01.899819919,"Jumeirah Beach Residence, Dubai",Apartment,2,4.0,1027.0,1325000.0,Pending
+2025-07-15 02:33:29.467387487,"Al Raha Beach, Abu Dhabi",Apartment,5,1.0,2000.0,1785000.0,Sold
+2025-07-15 06:52:57.034955054,"International City, Dubai",Apartment,1,3.0,756.0,505000.0,Sold
+2025-07-15 11:12:24.602522622,"Downtown Dubai, Dubai",Apartment,1,2.5,746.0,965000.0,Active
+2025-07-15 15:31:52.170090190,"Khalifa City, Abu Dhabi",Villa,4,4.0,3096.0,3005000.0,Pending
+2025-07-15 19:51:19.737657757,"Al Raha Beach, Abu Dhabi",Villa,2,2.0,2500.0,3710000.0,Active
+2025-07-16 00:10:47.305225325,"Al Majaz, Sharjah",Villa,3,3.0,2500.0,2655000.0,Active
+2025-07-16 04:30:14.872792892,"Al Reem Island, Abu Dhabi",Townhouse,4,,2795.0,3045000.0,Pending
+2025-07-16 08:49:42.440360460,"Dubai Silicon Oasis, Dubai",Townhouse,1,2.0,1500.0,1495000.0,Active
+2025-07-16 13:09:10.007928027,"Palm Jumeirah, Dubai",Villa,4,1.0,2669.0,5320000.0,Active
+2025-07-16 17:28:37.575495595,"Al Majaz, Sharjah",Studio,2,4.0,600.0,355000.0,Active
+2025-07-16 21:48:05.143063163,"Yas Island, Abu Dhabi",Apartment,2,3.0,1274.0,1180000.0,Active
+2025-07-17 02:07:32.710630730,"Dubai Marina, Dubai",Apartment,3,3.0,,1500000.0,Pending
+2025-07-17 06:27:00.278198298,"Dubai Marina, Dubai",Apartment,4,3.5,2000.0,1725000.0,Active
+2025-07-17 10:46:27.845765865,"Palm Jumeirah, Dubai",Villa,0,1.0,2500.0,4590000.0,Sold
+2025-07-17 15:05:55.413333433,"Al Raha Beach, Abu Dhabi",Townhouse,2,2.0,1500.0,1945000.0,Active
+2025-07-17 19:25:22.980901000,"Muwaileh, Sharjah",Apartment,3,,1621.0,875000.0,Active
+2025-07-17 23:44:50.548468568,"Downtown Dubai, Dubai",Penthouse,3,2.0,2000.0,5645000.0,Active
+2025-07-18 04:04:18.116036136,"Arabian Ranches, Dubai",Apartment,3,2.0,1957.0,1455000.0,Active
+2025-07-18 08:23:45.683603703,"Palm Jumeirah, Dubai",Penthouse,1,2.0,2000.0,5350000.0,Active
+2025-07-18 12:43:13.251171271,"Al Khan, Sharjah",Apartment,2,2.0,876.0,655000.0,Pending
+2025-07-18 17:02:40.818738838,"Al Raha Beach, Abu Dhabi",Apartment,2,1.5,1021.0,1125000.0,Pending
+2025-07-18 21:22:08.386306406,"Al Raha Beach, Abu Dhabi",Apartment,3,1.5,1653.0,1285000.0,Sold
+2025-07-19 01:41:35.953873973,"Business Bay, Dubai",Apartment,2,1.5,1345.0,1310000.0,Pending
+2025-07-19 06:01:03.521441541,"Palm Jumeirah, Dubai",Apartment,1,4.0,790.0,1265000.0,Pending
+2025-07-19 10:20:31.089009109,"Jumeirah Beach Residence, Dubai",Apartment,5,3.0,2000.0,1900000.0,Active
+2025-07-19 14:39:58.656576676,"Dubai Marina, Dubai",Townhouse,0,4.0,1500.0,2015000.0,Pending
+2025-07-19 18:59:26.224144244,"Yas Island, Abu Dhabi",Villa,5,2.0,3685.0,4675000.0,Active
+2025-07-19 23:18:53.791711811,"Al Raha Beach, Abu Dhabi",Apartment,3,,1982.0,1570000.0,Active
+2025-07-20 03:38:21.359279379,"Muwaileh, Sharjah",Villa,3,3.0,2500.0,2455000.0,Active
+2025-07-20 07:57:48.926846946,"Muwaileh, Sharjah",Villa,2,2.0,2500.0,2180000.0,Active
+2025-07-20 12:17:16.494414514,"Arabian Ranches, Dubai",Apartment,0,2.0,600.0,700000.0,Active
+2025-07-20 16:36:44.061982082,"Al Reem Island, Abu Dhabi",Apartment,3,2.0,1965.0,1450000.0,Sold
+2025-07-20 20:56:11.629549649,"Al Majaz, Sharjah",Apartment,3,1.5,1917.0,1130000.0,Active
+2025-07-21 01:15:39.197117217,"Al Raha Beach, Abu Dhabi",Apartment,3,2.0,1861.0,1535000.0,Active
+2025-07-21 05:35:06.764684784,"Downtown Dubai, Dubai",Villa,1,2.0,2500.0,3910000.0,Active
+2025-07-21 09:54:34.332252352,"Business Bay, Dubai",Apartment,3,2.5,1428.0,1345000.0,Active
+2025-07-21 14:14:01.899819919,"Dubai Marina, Dubai",Villa,3,1.0,2500.0,3870000.0,Active
+2025-07-21 18:33:29.467387487,"Al Majaz, Sharjah",Villa,3,2.0,2500.0,2470000.0,Active
+2025-07-21 22:52:57.034955054,"Arabian Ranches, Dubai",Apartment,3,3.0,1533.0,1395000.0,Active
+2025-07-22 03:12:24.602522622,"Downtown Dubai, Dubai",Villa,3,1.5,2500.0,4420000.0,Active
+2025-07-22 07:31:52.170090190,"International City, Dubai",Apartment,3,2.0,2000.0,840000.0,Pending
+2025-07-22 11:51:19.737657757,"Dubai Silicon Oasis, Dubai",Studio,1,3.0,562.0,315000.0,Pending
+2025-07-22 16:10:47.305225325,"Jumeirah Beach Residence, Dubai",Apartment,2,1.5,932.0,1315000.0,Active
+2025-07-22 20:30:14.872792892,"Dubai Marina, Dubai",Townhouse,1,1.0,1500.0,2325000.0,Active
+2025-07-23 00:49:42.440360460,"International City, Dubai",Villa,2,2.0,2500.0,2145000.0,Active
+2025-07-23 05:09:10.007928027,"Business Bay, Dubai",Apartment,2,2.0,995.0,1050000.0,Pending
+2025-07-23 09:28:37.575495595,"Al Reem Island, Abu Dhabi",Villa,1,2.5,,3945000.0,Active
+2025-07-23 13:48:05.143063163,"Business Bay, Dubai",Studio,2,3.0,600.0,625000.0,Active
+2025-07-23 18:07:32.710630730,"Al Raha Beach, Abu Dhabi",Villa,1,1.5,2500.0,3150000.0,Pending
+2025-07-23 22:27:00.278198298,"Arabian Ranches, Dubai",Townhouse,3,2.5,1500.0,1995000.0,Active
+2025-07-24 02:46:27.845765865,"Arabian Ranches, Dubai",Townhouse,4,2.0,,2195000.0,Active
+2025-07-24 07:05:55.413333433,"Yas Island, Abu Dhabi",Apartment,1,1.5,742.0,840000.0,Active
+2025-07-24 11:25:22.980901000,"Palm Jumeirah, Dubai",Apartment,5,2.5,2000.0,2365000.0,Sold
+2025-07-24 15:44:50.548468568,"Dubai Marina, Dubai",Villa,2,2.0,2500.0,4395000.0,Pending
+2025-07-24 20:04:18.116036136,"Dubai Marina, Dubai",Apartment,2,2.0,1068.0,1245000.0,Pending
+2025-07-25 00:23:45.683603703,"Al Reem Island, Abu Dhabi",Townhouse,1,1.0,1500.0,2240000.0,Active
+2025-07-25 04:43:13.251171271,"Dubai Silicon Oasis, Dubai",Penthouse,2,2.0,2000.0,3550000.0,Active
+2025-07-25 09:02:40.818738838,"International City, Dubai",Apartment,3,2.0,1545.0,870000.0,Sold
+2025-07-25 13:22:08.386306406,"Downtown Dubai, Dubai",Apartment,3,3.0,1568.0,1760000.0,Sold
+2025-07-25 17:41:35.953873973,"Dubai Marina, Dubai",Townhouse,1,1.0,1500.0,2120000.0,Active
+2025-07-25 22:01:03.521441541,"Dubai Marina, Dubai",Apartment,1,2.0,955.0,1020000.0,Pending
+2025-07-26 02:20:31.089009109,"Jumeirah Beach Residence, Dubai",Townhouse,2,2.0,1500.0,2490000.0,Active
+2025-07-26 06:39:58.656576676,"Arabian Ranches, Dubai",Apartment,2,3.0,742.0,880000.0,Active
+2025-07-26 10:59:26.224144244,"Palm Jumeirah, Dubai",Villa,1,2.5,2500.0,4370000.0,Active
+2025-07-26 15:18:53.791711811,"Palm Jumeirah, Dubai",Apartment,2,2.5,1216.0,1500000.0,Active
+2025-07-26 19:38:21.359279379,"Khalifa City, Abu Dhabi",Villa,3,3.0,2500.0,3200000.0,Sold
+2025-07-26 23:57:48.926846946,"Jumeirah Beach Residence, Dubai",Apartment,4,3.0,2000.0,1850000.0,Active
+2025-07-27 04:17:16.494414514,"Business Bay, Dubai",Villa,2,2.0,2500.0,3975000.0,Active
+2025-07-27 08:36:44.061982082,"Al Reem Island, Abu Dhabi",Apartment,4,2.0,1341.0,1500000.0,Sold
+2025-07-27 12:56:11.629549649,"Palm Jumeirah, Dubai",Villa,2,3.0,2500.0,4950000.0,Sold
+2025-07-27 17:15:39.197117217,"Dubai Silicon Oasis, Dubai",Townhouse,2,4.0,1500.0,1710000.0,Active
+2025-07-27 21:35:06.764684784,"Yas Island, Abu Dhabi",Apartment,1,3.0,600.0,930000.0,Active
+2025-07-28 01:54:34.332252352,"Al Majaz, Sharjah",Apartment,3,2.0,1643.0,960000.0,Active
+2025-07-28 06:14:01.899819919,"Dubai Marina, Dubai",Apartment,5,1.5,2000.0,2055000.0,Active
+2025-07-28 10:33:29.467387487,"Khalifa City, Abu Dhabi",Villa,3,2.0,2500.0,2985000.0,Sold
+2025-07-28 14:52:57.034955055,"Business Bay, Dubai",Villa,2,3.0,2500.0,3675000.0,Sold
+2025-07-28 19:12:24.602522622,"Downtown Dubai, Dubai",Villa,3,2.0,2500.0,4205000.0,Active
+2025-07-28 23:31:52.170090190,"Business Bay, Dubai",Apartment,1,2.0,644.0,805000.0,Active
+2025-07-29 03:51:19.737657758,"Muwaileh, Sharjah",Apartment,4,3.0,1825.0,875000.0,Active
+2025-07-29 08:10:47.305225324,"Business Bay, Dubai",Villa,2,2.0,2500.0,4015000.0,Sold
+2025-07-29 12:30:14.872792892,"Jumeirah Beach Residence, Dubai",Apartment,2,3.0,1204.0,1220000.0,Active
+2025-07-29 16:49:42.440360460,"Dubai Silicon Oasis, Dubai",Studio,2,2.0,600.0,415000.0,Active
+2025-07-29 21:09:10.007928028,"Downtown Dubai, Dubai",Apartment,3,2.0,1650.0,1790000.0,Active
+2025-07-30 01:28:37.575495596,"Dubai Marina, Dubai",Villa,1,2.0,2500.0,3755000.0,Active
+2025-07-30 05:48:05.143063162,"Dubai Marina, Dubai",Apartment,3,3.0,1545.0,1555000.0,Active
+2025-07-30 10:07:32.710630730,"Dubai Marina, Dubai",Apartment,1,1.5,600.0,875000.0,Active
+2025-07-30 14:27:00.278198298,"Downtown Dubai, Dubai",Villa,3,1.5,2500.0,4945000.0,Sold
+2025-07-30 18:46:27.845765866,"Dubai Marina, Dubai",Villa,3,4.0,2500.0,4500000.0,Sold
+2025-07-30 23:05:55.413333432,"Dubai Silicon Oasis, Dubai",Studio,3,1.5,600.0,590000.0,Pending
+2025-07-31 03:25:22.980901000,"Downtown Dubai, Dubai",Apartment,2,2.5,982.0,1285000.0,Active
+2025-07-31 07:44:50.548468568,"Jumeirah Beach Residence, Dubai",Apartment,2,2.5,1165.0,1345000.0,Active
+2025-07-31 12:04:18.116036136,"Yas Island, Abu Dhabi",Villa,1,2.0,2500.0,3340000.0,Active
+2025-07-31 16:23:45.683603704,"Business Bay, Dubai",Villa,3,2.5,2500.0,3500000.0,Active
+2025-07-31 20:43:13.251171270,"Dubai Silicon Oasis, Dubai",Apartment,2,2.0,961.0,755000.0,Sold
+2025-08-01 01:02:40.818738838,"Downtown Dubai, Dubai",Apartment,2,2.5,706.0,1235000.0,Active
+2025-08-01 05:22:08.386306406,"Downtown Dubai, Dubai",Apartment,2,2.0,1120.0,5750420.669302789,Active
+2025-08-01 09:41:35.953873974,"Dubai Marina, Dubai",Townhouse,1,2.5,1500.0,2275000.0,Sold
+2025-08-01 14:01:03.521441542,"Downtown Dubai, Dubai",Apartment,3,1.5,1683.0,1555000.0,Sold
+2025-08-01 18:20:31.089009108,"Jumeirah Beach Residence, Dubai",Apartment,1,2.5,696.0,950000.0,Active
+2025-08-01 22:39:58.656576676,"Downtown Dubai, Dubai",Apartment,3,1.5,1696.0,1805000.0,Active
+2025-08-02 02:59:26.224144244,"Dubai Marina, Dubai",Apartment,2,2.0,1097.0,1240000.0,Active
+2025-08-02 07:18:53.791711812,"Dubai Marina, Dubai",Apartment,0,2.0,600.0,815000.0,Active
+2025-08-02 11:38:21.359279378,"Business Bay, Dubai",Villa,2,1.5,2500.0,3540000.0,Active
+2025-08-02 15:57:48.926846946,"Downtown Dubai, Dubai",Apartment,0,3.0,600.0,895000.0,Active
+2025-08-02 20:17:16.494414514,"Jumeirah Beach Residence, Dubai",Townhouse,2,2.0,1500.0,9444298.925152943,Sold
+2025-08-03 00:36:44.061982082,"Business Bay, Dubai",Apartment,3,3.5,1307.0,1285000.0,Active
+2025-08-03 04:56:11.629549650,"International City, Dubai",Villa,1,4.0,2500.0,1985000.0,Active
+2025-08-03 09:15:39.197117216,"Dubai Marina, Dubai",Townhouse,3,2.5,1799.0,2745000.0,Active
+2025-08-03 13:35:06.764684784,"Al Reem Island, Abu Dhabi",Villa,0,1.5,2500.0,3680000.0,Active
+2025-08-03 17:54:34.332252352,"Dubai Silicon Oasis, Dubai",Villa,1,2.0,2500.0,2650000.0,Pending
+2025-08-03 22:14:01.899819920,"Dubai Marina, Dubai",Apartment,3,3.0,1450.0,1450000.0,Active
+2025-08-04 02:33:29.467387486,"Yas Island, Abu Dhabi",Apartment,2,2.0,943.0,1190000.0,Active
+2025-08-04 06:52:57.034955054,"Khalifa City, Abu Dhabi",Villa,1,1.0,2500.0,2785000.0,Active
+2025-08-04 11:12:24.602522622,"Dubai Marina, Dubai",Studio,2,2.5,600.0,2527664.700633044,Pending
+2025-08-04 15:31:52.170090190,"Jumeirah Beach Residence, Dubai",Villa,2,3.0,2500.0,4040000.0,Active
+2025-08-04 19:51:19.737657758,"Al Raha Beach, Abu Dhabi",Villa,3,3.0,2500.0,3350000.0,Pending
+2025-08-05 00:10:47.305225324,"Al Reem Island, Abu Dhabi",Villa,2,1.5,2500.0,3835000.0,Active
+2025-08-05 04:30:14.872792892,"Downtown Dubai, Dubai",Apartment,3,2.5,977.0,1435000.0,Active
+2025-08-05 08:49:42.440360460,"Downtown Dubai, Dubai",Apartment,4,2.0,2000.0,2200000.0,Active
+2025-08-05 13:09:10.007928028,"Palm Jumeirah, Dubai",Villa,2,2.0,2500.0,4655000.0,Sold
+2025-08-05 17:28:37.575495596,"Business Bay, Dubai",Studio,4,3.0,600.0,875000.0,Sold
+2025-08-05 21:48:05.143063162,"Dubai Silicon Oasis, Dubai",Apartment,2,2.0,891.0,830000.0,Active
+2025-08-06 02:07:32.710630730,"Jumeirah Beach Residence, Dubai",Villa,5,2.0,2679.0,4955000.0,Active
+2025-08-06 06:27:00.278198298,"Business Bay, Dubai",Apartment,1,1.0,769.0,970000.0,Active
+2025-08-06 10:46:27.845765866,"Al Reem Island, Abu Dhabi",Villa,3,3.0,2500.0,3845000.0,Active
+2025-08-06 15:05:55.413333432,"Dubai Marina, Dubai",Apartment,2,3.0,1163.0,1330000.0,Active
+2025-08-06 19:25:22.980901000,"Downtown Dubai, Dubai",Apartment,2,2.5,922.0,1310000.0,Sold
+2025-08-06 23:44:50.548468568,"International City, Dubai",Townhouse,3,3.0,1654.0,1415000.0,Sold
+2025-08-07 04:04:18.116036136,"Yas Island, Abu Dhabi",Apartment,3,1.5,1990.0,1470000.0,Active
+2025-08-07 08:23:45.683603704,"Business Bay, Dubai",Villa,0,2.0,2500.0,3425000.0,Active
+2025-08-07 12:43:13.251171270,"Business Bay, Dubai",Townhouse,1,2.0,1500.0,1990000.0,Pending
+2025-08-07 17:02:40.818738838,"Dubai Marina, Dubai",Penthouse,3,1.0,2000.0,5785000.0,Pending
+2025-08-07 21:22:08.386306406,"Palm Jumeirah, Dubai",Apartment,3,2.0,1527.0,1730000.0,Active
+2025-08-08 01:41:35.953873974,"Business Bay, Dubai",Apartment,5,3.5,2000.0,2030000.0,Active
+2025-08-08 06:01:03.521441542,"Downtown Dubai, Dubai",Apartment,3,1.0,1502.0,1670000.0,Active
+2025-08-08 10:20:31.089009108,"Downtown Dubai, Dubai",Studio,5,2.0,600.0,1220000.0,Active
+2025-08-08 14:39:58.656576676,"Palm Jumeirah, Dubai",Penthouse,3,2.0,2000.0,6220000.0,Active
+2025-08-08 18:59:26.224144244,"Dubai Marina, Dubai",Villa,2,2.0,2500.0,3750000.0,Active
+2025-08-08 23:18:53.791711812,"Jumeirah Beach Residence, Dubai",Townhouse,1,3.5,1500.0,2210000.0,Active
+2025-08-09 03:38:21.359279378,"Downtown Dubai, Dubai",Villa,3,2.0,2500.0,4165000.0,Active
+2025-08-09 07:57:48.926846946,"Jumeirah Beach Residence, Dubai",Villa,3,2.0,2500.0,4310000.0,Active
+2025-08-09 12:17:16.494414514,"Dubai Marina, Dubai",Apartment,0,3.0,600.0,770000.0,Active
+2025-08-09 16:36:44.061982082,"Yas Island, Abu Dhabi",Townhouse,2,1.5,1500.0,2360000.0,Pending
+2025-08-09 20:56:11.629549650,"Arabian Ranches, Dubai",Apartment,5,2.0,2000.0,1610000.0,Pending
+2025-08-10 01:15:39.197117216,"International City, Dubai",Townhouse,2,2.0,1500.0,1220000.0,Active
+2025-08-10 05:35:06.764684784,"Al Reem Island, Abu Dhabi",Townhouse,2,2.5,1500.0,2195000.0,Active
+2025-08-10 09:54:34.332252352,"Business Bay, Dubai",Villa,2,4.0,2500.0,4055000.0,Sold
+2025-08-10 14:14:01.899819920,"Dubai Marina, Dubai",Apartment,1,3.0,798.0,1040000.0,Active
+2025-08-10 18:33:29.467387488,"Business Bay, Dubai",Apartment,2,2.0,1262.0,1185000.0,Active
+2025-08-10 22:52:57.034955054,"Arabian Ranches, Dubai",Apartment,2,3.0,901.0,1010000.0,Active
+2025-08-11 03:12:24.602522622,"Al Reem Island, Abu Dhabi",Apartment,1,1.5,763.0,835000.0,Active
+2025-08-11 07:31:52.170090190,"Palm Jumeirah, Dubai",Apartment,3,1.0,1343.0,1885000.0,Active
+2025-08-11 11:51:19.737657758,"Dubai Marina, Dubai",Penthouse,2,2.0,2000.0,5360000.0,Sold
+2025-08-11 16:10:47.305225324,"Jumeirah Beach Residence, Dubai",Villa,3,2.0,2500.0,4025000.0,Active
+2025-08-11 20:30:14.872792892,"Jumeirah Beach Residence, Dubai",Apartment,4,2.0,1603.0,1760000.0,Active
+2025-08-12 00:49:42.440360460,"Dubai Silicon Oasis, Dubai",Apartment,1,2.5,642.0,605000.0,Sold
+2025-08-12 05:09:10.007928028,"Arabian Ranches, Dubai",Apartment,3,3.5,1562.0,1445000.0,Active
+2025-08-12 09:28:37.575495596,"Jumeirah Beach Residence, Dubai",Villa,2,2.0,2500.0,3785000.0,Active
+2025-08-12 13:48:05.143063162,"Muwaileh, Sharjah",Villa,4,2.0,2500.0,2420000.0,Active
+2025-08-12 18:07:32.710630730,"Arabian Ranches, Dubai",Penthouse,1,1.0,2000.0,4040000.0,Active
+2025-08-12 22:27:00.278198298,"Downtown Dubai, Dubai",Apartment,3,1.0,1680.0,1795000.0,Active
+2025-08-13 02:46:27.845765866,"Dubai Marina, Dubai",Studio,3,2.5,600.0,835000.0,Active
+2025-08-13 07:05:55.413333432,"Downtown Dubai, Dubai",Townhouse,2,2.0,1500.0,2700000.0,Active
+2025-08-13 11:25:22.980901000,"Downtown Dubai, Dubai",Apartment,1,3.0,600.0,1030000.0,Active
+2025-08-13 15:44:50.548468568,"Downtown Dubai, Dubai",Penthouse,3,1.5,2000.0,6205000.0,Active
+2025-08-13 20:04:18.116036136,"Downtown Dubai, Dubai",Apartment,3,1.0,1247.0,1440000.0,Active
+2025-08-14 00:23:45.683603704,"Jumeirah Beach Residence, Dubai",Townhouse,2,2.0,1500.0,2345000.0,Active
+2025-08-14 04:43:13.251171270,"Downtown Dubai, Dubai",Apartment,3,2.0,1954.0,1725000.0,Active
+2025-08-14 09:02:40.818738838,"Yas Island, Abu Dhabi",Townhouse,2,1.0,1500.0,2455000.0,Active
+2025-08-14 13:22:08.386306406,"Dubai Marina, Dubai",Townhouse,3,3.0,1539.0,2535000.0,Sold
+2025-08-14 17:41:35.953873974,"Business Bay, Dubai",Townhouse,1,1.5,1500.0,2190000.0,Active
+2025-08-14 22:01:03.521441542,"Palm Jumeirah, Dubai",Townhouse,4,2.5,3000.0,3855000.0,Active
+2025-08-15 02:20:31.089009108,"Muwaileh, Sharjah",Apartment,2,2.0,815.0,590000.0,Pending
+2025-08-15 06:39:58.656576676,"Dubai Marina, Dubai",Apartment,2,1.5,905.0,1130000.0,Active
+2025-08-15 10:59:26.224144244,"Palm Jumeirah, Dubai",Apartment,1,2.0,640.0,1045000.0,Active
+2025-08-15 15:18:53.791711812,"Al Khan, Sharjah",Apartment,1,3.0,885.0,620000.0,Pending
+2025-08-15 19:38:21.359279378,"Yas Island, Abu Dhabi",Villa,2,2.0,2500.0,3540000.0,Pending
+2025-08-15 23:57:48.926846946,"Al Raha Beach, Abu Dhabi",Apartment,2,3.0,906.0,910000.0,Active
+2025-08-16 04:17:16.494414514,"Downtown Dubai, Dubai",Studio,3,1.5,600.0,920000.0,Active
+2025-08-16 08:36:44.061982082,"Downtown Dubai, Dubai",Villa,0,3.0,2500.0,4400000.0,Active
+2025-08-16 12:56:11.629549650,"Dubai Silicon Oasis, Dubai",Townhouse,2,2.0,1500.0,1625000.0,Pending
+2025-08-16 17:15:39.197117216,"Khalifa City, Abu Dhabi",Apartment,2,2.5,1295.0,885000.0,Active
+2025-08-16 21:35:06.764684784,"Arabian Ranches, Dubai",Townhouse,0,2.5,1500.0,1610000.0,Active
+2025-08-17 01:54:34.332252352,"Arabian Ranches, Dubai",Penthouse,1,3.5,2000.0,4410000.0,Pending
+2025-08-17 06:14:01.899819920,"Jumeirah Beach Residence, Dubai",Apartment,2,2.0,1265.0,1395000.0,Active
+2025-08-17 10:33:29.467387488,"Al Reem Island, Abu Dhabi",Villa,2,1.0,2500.0,3475000.0,Pending
+2025-08-17 14:52:57.034955054,"Downtown Dubai, Dubai",Townhouse,2,1.0,1500.0,2435000.0,Active
+2025-08-17 19:12:24.602522622,"Jumeirah Beach Residence, Dubai",Apartment,2,3.0,1070.0,1315000.0,Active
+2025-08-17 23:31:52.170090190,"Palm Jumeirah, Dubai",Villa,2,2.0,2500.0,4780000.0,Active
+2025-08-18 03:51:19.737657758,"Business Bay, Dubai",Apartment,0,3.0,600.0,655000.0,Pending
+2025-08-18 08:10:47.305225324,"Downtown Dubai, Dubai",Apartment,2,2.0,1198.0,1420000.0,Active
+2025-08-18 12:30:14.872792892,"Dubai Marina, Dubai",Apartment,5,2.0,2000.0,1940000.0,Active
+2025-08-18 16:49:42.440360460,"Dubai Silicon Oasis, Dubai",Apartment,2,1.0,878.0,795000.0,Active
+2025-08-18 21:09:10.007928028,"Jumeirah Beach Residence, Dubai",Apartment,3,4.0,1490.0,1620000.0,Pending
+2025-08-19 01:28:37.575495596,"Arabian Ranches, Dubai",Apartment,2,2.5,1069.0,1120000.0,Sold
+2025-08-19 05:48:05.143063162,"Downtown Dubai, Dubai",Studio,3,3.5,600.0,835000.0,Active
+2025-08-19 10:07:32.710630730,"Business Bay, Dubai",Villa,3,2.0,2500.0,4230000.0,Active
+2025-08-19 14:27:00.278198298,"Business Bay, Dubai",Studio,2,2.5,600.0,575000.0,Sold
+2025-08-19 18:46:27.845765866,"Dubai Marina, Dubai",Apartment,5,2.5,2000.0,2125000.0,Active
+2025-08-19 23:05:55.413333432,"Jumeirah Beach Residence, Dubai",Apartment,1,2.0,632.0,945000.0,Active
+2025-08-20 03:25:22.980901000,"Dubai Marina, Dubai",Villa,0,3.0,2500.0,4035000.0,Active
+2025-08-20 07:44:50.548468568,"Dubai Marina, Dubai",Apartment,3,3.5,1597.0,1700000.0,Pending
+2025-08-20 12:04:18.116036136,"Muwaileh, Sharjah",Apartment,3,,1535.0,765000.0,Active
+2025-08-20 16:23:45.683603704,"Jumeirah Beach Residence, Dubai",Villa,1,3.0,2500.0,20019239.123257,Active
+2025-08-20 20:43:13.251171270,"Al Raha Beach, Abu Dhabi",Apartment,2,2.0,954.0,1090000.0,Active
+2025-08-21 01:02:40.818738838,"Downtown Dubai, Dubai",Villa,0,2.0,2500.0,4260000.0,Active
+2025-08-21 05:22:08.386306406,"International City, Dubai",Villa,2,,2500.0,2050000.0,Active
+2025-08-21 09:41:35.953873974,"Al Reem Island, Abu Dhabi",Apartment,3,1.0,1641.0,7482578.0935138,Active
+2025-08-21 14:01:03.521441542,"Arabian Ranches, Dubai",Apartment,2,3.0,1299.0,1195000.0,Active
+2025-08-21 18:20:31.089009108,"Business Bay, Dubai",Townhouse,2,3.0,1500.0,2145000.0,Active
+2025-08-21 22:39:58.656576676,"Palm Jumeirah, Dubai",Apartment,2,2.5,1131.0,1590000.0,Active
+2025-08-22 02:59:26.224144244,"Jumeirah Beach Residence, Dubai",Apartment,0,4.0,600.0,710000.0,Pending
+2025-08-22 07:18:53.791711812,"Khalifa City, Abu Dhabi",Studio,2,2.0,600.0,410000.0,Pending
+2025-08-22 11:38:21.359279378,"Al Raha Beach, Abu Dhabi",Apartment,3,2.0,1378.0,1280000.0,Pending
+2025-08-22 15:57:48.926846946,"Al Khan, Sharjah",Villa,5,1.0,4334.0,3195000.0,Active
+2025-08-22 20:17:16.494414514,"Dubai Marina, Dubai",Studio,3,2.0,600.0,815000.0,Active
+2025-08-23 00:36:44.061982082,"Al Reem Island, Abu Dhabi",Apartment,0,2.0,600.0,650000.0,Active
+2025-08-23 04:56:11.629549650,"Al Majaz, Sharjah",Apartment,4,2.0,1733.0,1190000.0,Sold
+2025-08-23 09:15:39.197117216,"Downtown Dubai, Dubai",Apartment,3,3.0,1541.0,1520000.0,Pending
+2025-08-23 13:35:06.764684784,"Dubai Marina, Dubai",Apartment,3,3.5,1690.0,1490000.0,Pending
+2025-08-23 17:54:34.332252352,"Al Reem Island, Abu Dhabi",Apartment,2,1.5,1135.0,1055000.0,Active
+2025-08-23 22:14:01.899819920,"Arabian Ranches, Dubai",Villa,2,2.0,2500.0,3470000.0,Active
+2025-08-24 02:33:29.467387488,"Al Raha Beach, Abu Dhabi",Apartment,2,3.5,921.0,1100000.0,Active
+2025-08-24 06:52:57.034955054,"Dubai Marina, Dubai",Villa,1,1.0,2500.0,4025000.0,Active
+2025-08-24 11:12:24.602522622,"Al Reem Island, Abu Dhabi",Studio,1,1.0,600.0,475000.0,Active
+2025-08-24 15:31:52.170090190,"Downtown Dubai, Dubai",Townhouse,1,1.5,1500.0,2205000.0,Sold
+2025-08-24 19:51:19.737657758,"Downtown Dubai, Dubai",Villa,2,2.5,2500.0,4400000.0,Active
+2025-08-25 00:10:47.305225324,"Downtown Dubai, Dubai",Apartment,3,1.5,1642.0,1695000.0,Active
+2025-08-25 04:30:14.872792892,"Al Raha Beach, Abu Dhabi",Villa,2,4.0,2500.0,3425000.0,Active
+2025-08-25 08:49:42.440360460,"Dubai Silicon Oasis, Dubai",Villa,1,2.0,2500.0,2465000.0,Sold
+2025-08-25 13:09:10.007928028,"Business Bay, Dubai",Apartment,5,2.0,2000.0,1930000.0,Active
+2025-08-25 17:28:37.575495596,"Jumeirah Beach Residence, Dubai",Apartment,4,2.0,2000.0,1860000.0,Active
+2025-08-25 21:48:05.143063162,"Yas Island, Abu Dhabi",Townhouse,3,2.0,1500.0,2510000.0,Sold
+2025-08-26 02:07:32.710630730,"Palm Jumeirah, Dubai",Apartment,5,2.5,2000.0,2320000.0,Active
+2025-08-26 06:27:00.278198298,"Al Raha Beach, Abu Dhabi",Apartment,2,3.0,1300.0,1040000.0,Active
+2025-08-26 10:46:27.845765866,"Palm Jumeirah, Dubai",Apartment,5,3.0,2000.0,2395000.0,Active
+2025-08-26 15:05:55.413333434,"Palm Jumeirah, Dubai",Apartment,1,2.5,806.0,1080000.0,Active
+2025-08-26 19:25:22.980901000,"Business Bay, Dubai",Townhouse,2,3.5,1500.0,2405000.0,Pending
+2025-08-26 23:44:50.548468568,"Jumeirah Beach Residence, Dubai",Villa,1,3.0,2500.0,3980000.0,Pending
+2025-08-27 04:04:18.116036136,"Al Reem Island, Abu Dhabi",Townhouse,1,3.0,1500.0,1950000.0,Active
+2025-08-27 08:23:45.683603704,"Business Bay, Dubai",Apartment,1,1.0,680.0,970000.0,Active
+2025-08-27 12:43:13.251171270,"Downtown Dubai, Dubai",Apartment,3,1.0,2000.0,1840000.0,Active
+2025-08-27 17:02:40.818738838,"Yas Island, Abu Dhabi",Apartment,3,2.0,1317.0,1250000.0,Active
+2025-08-27 21:22:08.386306406,"Palm Jumeirah, Dubai",Apartment,2,2.5,1422.0,1610000.0,Active
+2025-08-28 01:41:35.953873974,"Arabian Ranches, Dubai",Apartment,1,2.0,651.0,765000.0,Active
+2025-08-28 06:01:03.521441542,"Khalifa City, Abu Dhabi",Townhouse,3,2.0,1997.0,2015000.0,Active
+2025-08-28 10:20:31.089009108,"Dubai Silicon Oasis, Dubai",Apartment,3,3.0,1177.0,1055000.0,Pending
+2025-08-28 14:39:58.656576676,"Dubai Marina, Dubai",Villa,2,3.0,2500.0,4435000.0,Active
+2025-08-28 18:59:26.224144244,"Al Majaz, Sharjah",Apartment,3,3.5,1378.0,925000.0,Active
+2025-08-28 23:18:53.791711812,"Dubai Silicon Oasis, Dubai",Apartment,2,2.0,816.0,795000.0,Active
+2025-08-29 03:38:21.359279378,"Jumeirah Beach Residence, Dubai",Apartment,2,2.5,1143.0,1335000.0,Pending
+2025-08-29 07:57:48.926846946,"Dubai Marina, Dubai",Studio,4,2.0,600.0,880000.0,Active
+2025-08-29 12:17:16.494414514,"Al Reem Island, Abu Dhabi",Townhouse,2,1.5,1500.0,2260000.0,Active
+2025-08-29 16:36:44.061982082,"Dubai Silicon Oasis, Dubai",Studio,2,1.5,600.0,445000.0,Active
+2025-08-29 20:56:11.629549650,"Business Bay, Dubai",Apartment,4,2.0,2000.0,1575000.0,Pending
+2025-08-30 01:15:39.197117216,"Yas Island, Abu Dhabi",Apartment,3,2.0,1573.0,1420000.0,Active
+2025-08-30 05:35:06.764684784,"Al Reem Island, Abu Dhabi",Villa,1,3.0,2500.0,3850000.0,Pending
+2025-08-30 09:54:34.332252352,"Downtown Dubai, Dubai",Apartment,1,1.5,842.0,1170000.0,Sold
+2025-08-30 14:14:01.899819920,"Jumeirah Beach Residence, Dubai",Townhouse,0,3.0,1500.0,1945000.0,Pending
+2025-08-30 18:33:29.467387488,"Downtown Dubai, Dubai",Apartment,3,2.0,2000.0,1685000.0,Active
+2025-08-30 22:52:57.034955054,"Al Reem Island, Abu Dhabi",Apartment,2,,1144.0,1115000.0,Active
+2025-08-31 03:12:24.602522622,"Dubai Marina, Dubai",Apartment,1,2.0,648.0,1025000.0,Active
+2025-08-31 07:31:52.170090190,"Arabian Ranches, Dubai",Apartment,5,2.0,2000.0,1580000.0,Sold
+2025-08-31 11:51:19.737657758,"Al Reem Island, Abu Dhabi",Villa,2,2.5,2500.0,3900000.0,Active
+2025-08-31 16:10:47.305225324,"Yas Island, Abu Dhabi",Apartment,1,2.0,649.0,810000.0,Active
+2025-08-31 20:30:14.872792892,"Jumeirah Beach Residence, Dubai",Apartment,2,1.5,1292.0,1350000.0,Active
+2025-09-01 00:49:42.440360460,"Al Raha Beach, Abu Dhabi",Apartment,3,1.5,1738.0,1330000.0,Active
+2025-09-01 05:09:10.007928028,"Dubai Marina, Dubai",Apartment,1,2.0,600.0,990000.0,Active
+2025-09-01 09:28:37.575495596,"Al Raha Beach, Abu Dhabi",Townhouse,2,3.5,1500.0,1940000.0,Active
+2025-09-01 13:48:05.143063162,"Dubai Marina, Dubai",Townhouse,3,2.0,1801.0,2755000.0,Active
+2025-09-01 18:07:32.710630730,"Palm Jumeirah, Dubai",Studio,2,3.0,600.0,695000.0,Pending
+2025-09-01 22:27:00.278198298,"Al Reem Island, Abu Dhabi",Townhouse,2,2.5,1500.0,2335000.0,Active
+2025-09-02 02:46:27.845765866,"Dubai Marina, Dubai",Apartment,2,3.5,1252.0,5957017.231764946,Active
+2025-09-02 07:05:55.413333434,"Downtown Dubai, Dubai",Villa,0,3.0,2500.0,3725000.0,Active
+2025-09-02 11:25:22.980901000,"Al Reem Island, Abu Dhabi",Apartment,1,2.5,758.0,980000.0,Active
+2025-09-02 15:44:50.548468568,"Al Reem Island, Abu Dhabi",Apartment,2,2.5,1349.0,1255000.0,Pending
+2025-09-02 20:04:18.116036136,"Dubai Silicon Oasis, Dubai",Townhouse,1,,1500.0,1455000.0,Active
+2025-09-03 00:23:45.683603704,"International City, Dubai",Apartment,0,2.0,600.0,415000.0,Active
+2025-09-03 04:43:13.251171270,"Arabian Ranches, Dubai",Penthouse,3,2.0,2000.0,4215000.0,Active
+2025-09-03 09:02:40.818738838,"Downtown Dubai, Dubai",Apartment,5,1.0,2000.0,2255000.0,Sold
+2025-09-03 13:22:08.386306406,"Jumeirah Beach Residence, Dubai",Villa,3,3.0,2500.0,4425000.0,Active
+2025-09-03 17:41:35.953873974,"Downtown Dubai, Dubai",Villa,4,3.0,2500.0,4325000.0,Pending
+2025-09-03 22:01:03.521441542,"Khalifa City, Abu Dhabi",Townhouse,1,1.5,1500.0,1570000.0,Active
+2025-09-04 02:20:31.089009108,"Arabian Ranches, Dubai",Villa,5,2.5,3211.0,4270000.0,Active
+2025-09-04 06:39:58.656576676,"Palm Jumeirah, Dubai",Villa,1,2.0,2500.0,4885000.0,Active
+2025-09-04 10:59:26.224144244,"Business Bay, Dubai",Apartment,5,1.5,2000.0,9002395.90628053,Pending
+2025-09-04 15:18:53.791711812,"Al Majaz, Sharjah",Villa,5,4.0,3799.0,3315000.0,Active
+2025-09-04 19:38:21.359279380,"Downtown Dubai, Dubai",Apartment,3,2.0,1516.0,1675000.0,Sold
+2025-09-04 23:57:48.926846946,"Arabian Ranches, Dubai",Villa,5,1.0,2604.0,3770000.0,Active
+2025-09-05 04:17:16.494414514,"Business Bay, Dubai",Villa,2,2.5,2500.0,4000000.0,Active
+2025-09-05 08:36:44.061982082,"Dubai Silicon Oasis, Dubai",Villa,2,3.0,2500.0,2800000.0,Active
+2025-09-05 12:56:11.629549650,"Dubai Marina, Dubai",Apartment,2,1.0,1536.0,1390000.0,Pending
+2025-09-05 17:15:39.197117216,"Yas Island, Abu Dhabi",Apartment,2,2.5,1214.0,1190000.0,Active
+2025-09-05 21:35:06.764684784,"Al Majaz, Sharjah",Villa,1,2.0,2500.0,2560000.0,Pending
+2025-09-06 01:54:34.332252352,"Arabian Ranches, Dubai",Apartment,3,1.5,1416.0,1365000.0,Sold
+2025-09-06 06:14:01.899819920,"International City, Dubai",Apartment,5,1.5,2000.0,1065000.0,Sold
+2025-09-06 10:33:29.467387488,"Khalifa City, Abu Dhabi",Apartment,1,2.5,664.0,640000.0,Active
+2025-09-06 14:52:57.034955054,"International City, Dubai",Studio,3,2.0,600.0,425000.0,Active
+2025-09-06 19:12:24.602522622,"Downtown Dubai, Dubai",Villa,4,3.5,2593.0,4800000.0,Pending
+2025-09-06 23:31:52.170090190,"Arabian Ranches, Dubai",Apartment,4,3.0,2000.0,1490000.0,Active
+2025-09-07 03:51:19.737657758,"Arabian Ranches, Dubai",Apartment,5,4.0,2000.0,1805000.0,Active
+2025-09-07 08:10:47.305225324,"Palm Jumeirah, Dubai",Apartment,2,2.0,1109.0,1445000.0,Active
+2025-09-07 12:30:14.872792892,"Al Reem Island, Abu Dhabi",Townhouse,5,4.0,3000.0,3015000.0,Active
+2025-09-07 16:49:42.440360460,"Al Majaz, Sharjah",Villa,3,2.0,2500.0,2385000.0,Active
+2025-09-07 21:09:10.007928028,"Khalifa City, Abu Dhabi",Apartment,1,,754.0,2900187.182729714,Active
+2025-09-08 01:28:37.575495596,"Business Bay, Dubai",Apartment,2,1.0,1162.0,1280000.0,Active
+2025-09-08 05:48:05.143063162,"Dubai Marina, Dubai",Apartment,3,1.0,1033.0,1335000.0,Active
+2025-09-08 10:07:32.710630730,"Muwaileh, Sharjah",Villa,1,2.5,2500.0,1960000.0,Active
+2025-09-08 14:27:00.278198298,"Al Raha Beach, Abu Dhabi",Townhouse,3,2.0,,2300000.0,Active
+2025-09-08 18:46:27.845765866,"Dubai Marina, Dubai",Apartment,3,2.0,1480.0,1475000.0,Active
+2025-09-08 23:05:55.413333434,"Khalifa City, Abu Dhabi",Apartment,1,2.5,600.0,590000.0,Active
+2025-09-09 03:25:22.980901000,"Yas Island, Abu Dhabi",Apartment,2,,1169.0,1135000.0,Active
+2025-09-09 07:44:50.548468568,"Business Bay, Dubai",Studio,3,2.5,600.0,740000.0,Active
+2025-09-09 12:04:18.116036136,"Arabian Ranches, Dubai",Apartment,2,2.0,1171.0,1090000.0,Active
+2025-09-09 16:23:45.683603704,"Palm Jumeirah, Dubai",Townhouse,0,3.0,1500.0,2370000.0,Pending
+2025-09-09 20:43:13.251171270,"Dubai Marina, Dubai",Villa,0,3.0,2500.0,3700000.0,Active
+2025-09-10 01:02:40.818738838,"Jumeirah Beach Residence, Dubai",Apartment,2,2.0,1389.0,1475000.0,Pending
+2025-09-10 05:22:08.386306406,"Al Raha Beach, Abu Dhabi",Apartment,4,2.0,2000.0,1535000.0,Active
+2025-09-10 09:41:35.953873974,"Dubai Marina, Dubai",Apartment,1,2.0,600.0,890000.0,Active
+2025-09-10 14:01:03.521441542,"Jumeirah Beach Residence, Dubai",Villa,3,3.0,2500.0,3990000.0,Active
+2025-09-10 18:20:31.089009108,"Palm Jumeirah, Dubai",Townhouse,1,2.0,1500.0,2595000.0,Active
+2025-09-10 22:39:58.656576676,"Business Bay, Dubai",Villa,2,,2500.0,3930000.0,Active
+2025-09-11 02:59:26.224144244,"Khalifa City, Abu Dhabi",Villa,3,1.0,2500.0,2740000.0,Active
+2025-09-11 07:18:53.791711812,"Jumeirah Beach Residence, Dubai",Apartment,3,,1672.0,1665000.0,Active
+2025-09-11 11:38:21.359279380,"Jumeirah Beach Residence, Dubai",Studio,1,2.0,387.0,370000.0,Active
+2025-09-11 15:57:48.926846946,"Al Reem Island, Abu Dhabi",Townhouse,2,3.0,1500.0,2200000.0,Active
+2025-09-11 20:17:16.494414514,"Business Bay, Dubai",Apartment,0,2.0,600.0,760000.0,Sold
+2025-09-12 00:36:44.061982082,"Downtown Dubai, Dubai",Studio,2,2.0,600.0,665000.0,Active
+2025-09-12 04:56:11.629549650,"Business Bay, Dubai",Villa,3,3.0,2500.0,3930000.0,Active
+2025-09-12 09:15:39.197117216,"Dubai Marina, Dubai",Villa,1,3.0,2500.0,3665000.0,Active
+2025-09-12 13:35:06.764684784,"Downtown Dubai, Dubai",Villa,2,2.0,2500.0,4570000.0,Active
+2025-09-12 17:54:34.332252352,"Business Bay, Dubai",Townhouse,2,2.0,1500.0,2040000.0,Pending
+2025-09-12 22:14:01.899819920,"Palm Jumeirah, Dubai",Villa,4,2.0,2875.0,5540000.0,Active
+2025-09-13 02:33:29.467387488,"Khalifa City, Abu Dhabi",Apartment,5,3.5,2000.0,1310000.0,Active
+2025-09-13 06:52:57.034955054,"Jumeirah Beach Residence, Dubai",Apartment,0,1.5,600.0,840000.0,Pending
+2025-09-13 11:12:24.602522622,"Arabian Ranches, Dubai",Penthouse,3,3.5,2000.0,4390000.0,Active
+2025-09-13 15:31:52.170090190,"Dubai Silicon Oasis, Dubai",Apartment,2,2.5,1035.0,890000.0,Active
+2025-09-13 19:51:19.737657758,"Dubai Marina, Dubai",Apartment,2,2.0,1428.0,1310000.0,Sold
+2025-09-14 00:10:47.305225324,"Dubai Silicon Oasis, Dubai",Apartment,3,1.0,1708.0,1205000.0,Active
+2025-09-14 04:30:14.872792892,"Downtown Dubai, Dubai",Apartment,4,2.0,2000.0,1855000.0,Active
+2025-09-14 08:49:42.440360460,"Al Khan, Sharjah",Villa,5,2.0,3478.0,2785000.0,Active
+2025-09-14 13:09:10.007928028,"Dubai Marina, Dubai",Penthouse,2,1.5,,5180000.0,Active
+2025-09-14 17:28:37.575495596,"Palm Jumeirah, Dubai",Apartment,2,2.5,1194.0,1360000.0,Active
+2025-09-14 21:48:05.143063162,"Dubai Marina, Dubai",Apartment,3,4.0,1189.0,1350000.0,Pending
+2025-09-15 02:07:32.710630730,"Muwaileh, Sharjah",Apartment,2,2.5,1218.0,760000.0,Active
+2025-09-15 06:27:00.278198298,"Business Bay, Dubai",Townhouse,2,3.0,1500.0,2450000.0,Pending
+2025-09-15 10:46:27.845765866,"Arabian Ranches, Dubai",Villa,2,1.0,2500.0,3340000.0,Sold
+2025-09-15 15:05:55.413333434,"Dubai Marina, Dubai",Apartment,3,2.0,1453.0,1655000.0,Active
+2025-09-15 19:25:22.980901000,"Al Reem Island, Abu Dhabi",Townhouse,1,1.5,1500.0,2115000.0,Active
+2025-09-15 23:44:50.548468568,"Downtown Dubai, Dubai",Townhouse,1,,1500.0,2330000.0,Active
+2025-09-16 04:04:18.116036136,"Yas Island, Abu Dhabi",Townhouse,4,3.5,1797.0,2720000.0,Sold
+2025-09-16 08:23:45.683603704,"Downtown Dubai, Dubai",Penthouse,1,2.5,2000.0,5590000.0,Pending
+2025-09-16 12:43:13.251171270,"Downtown Dubai, Dubai",Apartment,2,1.0,1139.0,1500000.0,Active
+2025-09-16 17:02:40.818738838,"Dubai Marina, Dubai",Townhouse,1,2.0,1500.0,2160000.0,Active
+2025-09-16 21:22:08.386306406,"Business Bay, Dubai",Apartment,0,2.5,600.0,745000.0,Active
+2025-09-17 01:41:35.953873974,"Arabian Ranches, Dubai",Townhouse,0,2.0,1500.0,1625000.0,Sold
+2025-09-17 06:01:03.521441542,"Dubai Marina, Dubai",Villa,1,3.0,2500.0,3595000.0,Active
+2025-09-17 10:20:31.089009108,"Al Reem Island, Abu Dhabi",Townhouse,4,3.0,2241.0,2475000.0,Active
+2025-09-17 14:39:58.656576676,"Business Bay, Dubai",Villa,2,2.5,2500.0,4110000.0,Pending
+2025-09-17 18:59:26.224144244,"Business Bay, Dubai",Apartment,5,2.0,2000.0,1970000.0,Active
+2025-09-17 23:18:53.791711812,"Palm Jumeirah, Dubai",Villa,2,2.0,2500.0,4940000.0,Active
+2025-09-18 03:38:21.359279380,"Palm Jumeirah, Dubai",Studio,2,1.5,600.0,735000.0,Active
+2025-09-18 07:57:48.926846946,"Arabian Ranches, Dubai",Penthouse,2,2.0,2000.0,4215000.0,Active
+2025-09-18 12:17:16.494414514,"Downtown Dubai, Dubai",Apartment,2,2.0,964.0,1210000.0,Active
+2025-09-18 16:36:44.061982082,"Downtown Dubai, Dubai",Apartment,3,2.5,1504.0,1590000.0,Sold
+2025-09-18 20:56:11.629549650,"Yas Island, Abu Dhabi",Apartment,2,2.5,943.0,1085000.0,Active
+2025-09-19 01:15:39.197117216,"Al Majaz, Sharjah",Villa,2,1.0,2500.0,8984702.925619205,Active
+2025-09-19 05:35:06.764684784,"Palm Jumeirah, Dubai",Townhouse,4,2.0,3000.0,3750000.0,Active
+2025-09-19 09:54:34.332252352,"Jumeirah Beach Residence, Dubai",Apartment,4,1.5,2000.0,1700000.0,Active
+2025-09-19 14:14:01.899819920,"Dubai Silicon Oasis, Dubai",Villa,4,1.5,2931.0,2815000.0,Active
+2025-09-19 18:33:29.467387488,"Palm Jumeirah, Dubai",Townhouse,2,3.0,1500.0,2575000.0,Pending
+2025-09-19 22:52:57.034955054,"Dubai Marina, Dubai",Villa,3,1.0,2500.0,4130000.0,Pending
+2025-09-20 03:12:24.602522622,"Downtown Dubai, Dubai",Villa,2,2.0,2500.0,4740000.0,Active
+2025-09-20 07:31:52.170090190,"International City, Dubai",Villa,2,1.5,2500.0,2240000.0,Active
+2025-09-20 11:51:19.737657758,"Dubai Silicon Oasis, Dubai",Villa,1,3.0,2500.0,2860000.0,Active
+2025-09-20 16:10:47.305225326,"Dubai Marina, Dubai",Apartment,2,,1203.0,1280000.0,Sold
+2025-09-20 20:30:14.872792892,"Downtown Dubai, Dubai",Villa,1,2.0,2500.0,4075000.0,Active
+2025-09-21 00:49:42.440360460,"Downtown Dubai, Dubai",Villa,2,2.0,2500.0,4020000.0,Pending
+2025-09-21 05:09:10.007928028,"International City, Dubai",Townhouse,4,3.0,2155.0,1710000.0,Active
+2025-09-21 09:28:37.575495596,"Dubai Marina, Dubai",Villa,1,4.0,2500.0,4115000.0,Sold
+2025-09-21 13:48:05.143063162,"Dubai Marina, Dubai",Townhouse,1,2.0,1500.0,2120000.0,Pending
+2025-09-21 18:07:32.710630730,"Al Reem Island, Abu Dhabi",Apartment,1,3.0,600.0,865000.0,Pending
+2025-09-21 22:27:00.278198298,"Downtown Dubai, Dubai",Apartment,4,3.5,2000.0,1995000.0,Active
+2025-09-22 02:46:27.845765866,"Dubai Silicon Oasis, Dubai",Apartment,2,3.5,1286.0,935000.0,Active
+2025-09-22 07:05:55.413333434,"Downtown Dubai, Dubai",Apartment,2,2.5,1016.0,1440000.0,Active
+2025-09-22 11:25:22.980901000,"Dubai Marina, Dubai",Villa,3,2.5,2500.0,4275000.0,Pending
+2025-09-22 15:44:50.548468568,"Downtown Dubai, Dubai",Studio,3,2.0,600.0,860000.0,Active
+2025-09-22 20:04:18.116036136,"Al Reem Island, Abu Dhabi",Apartment,2,3.0,1079.0,1050000.0,Sold
+2025-09-23 00:23:45.683603704,"Al Raha Beach, Abu Dhabi",Apartment,3,2.0,1717.0,1245000.0,Pending
+2025-09-23 04:43:13.251171270,"Al Raha Beach, Abu Dhabi",Townhouse,3,2.5,1500.0,2045000.0,Active
+2025-09-23 09:02:40.818738838,"Palm Jumeirah, Dubai",Apartment,3,2.0,1654.0,1665000.0,Pending
+2025-09-23 13:22:08.386306406,"Dubai Silicon Oasis, Dubai",Villa,1,3.0,2500.0,2825000.0,Active
+2025-09-23 17:41:35.953873974,"Downtown Dubai, Dubai",Villa,4,3.0,2597.0,4940000.0,Active
+2025-09-23 22:01:03.521441542,"Jumeirah Beach Residence, Dubai",Villa,2,1.5,2500.0,3755000.0,Active
+2025-09-24 02:20:31.089009108,"Yas Island, Abu Dhabi",Apartment,2,3.0,1141.0,1250000.0,Active
+2025-09-24 06:39:58.656576676,"Dubai Marina, Dubai",Apartment,2,2.0,1392.0,1255000.0,Pending
+2025-09-24 10:59:26.224144244,"Dubai Marina, Dubai",Townhouse,0,3.0,1500.0,2030000.0,Active
+2025-09-24 15:18:53.791711812,"Downtown Dubai, Dubai",Villa,1,2.0,2500.0,3980000.0,Active
+2025-09-24 19:38:21.359279380,"Dubai Marina, Dubai",Apartment,3,2.0,1528.0,1510000.0,Active
+2025-09-24 23:57:48.926846946,"Downtown Dubai, Dubai",Townhouse,0,3.5,1500.0,8484616.705162896,Pending
+2025-09-25 04:17:16.494414514,"Arabian Ranches, Dubai",Apartment,2,2.0,1155.0,1075000.0,Active
+2025-09-25 08:36:44.061982082,"Palm Jumeirah, Dubai",Villa,2,3.0,2500.0,4585000.0,Pending
+2025-09-25 12:56:11.629549650,"Yas Island, Abu Dhabi",Apartment,1,2.0,747.0,995000.0,Active
+2025-09-25 17:15:39.197117216,"Al Raha Beach, Abu Dhabi",Studio,5,,600.0,850000.0,Active
+2025-09-25 21:35:06.764684784,"Jumeirah Beach Residence, Dubai",Apartment,1,2.0,605.0,870000.0,Active
+2025-09-26 01:54:34.332252352,"Downtown Dubai, Dubai",Apartment,2,2.5,1137.0,1240000.0,Active
+2025-09-26 06:14:01.899819920,"Palm Jumeirah, Dubai",Apartment,2,,1159.0,1505000.0,Pending
+2025-09-26 10:33:29.467387488,"Arabian Ranches, Dubai",Apartment,1,1.0,600.0,720000.0,Active
+2025-09-26 14:52:57.034955054,"Downtown Dubai, Dubai",Townhouse,0,2.0,1500.0,2430000.0,Pending
+2025-09-26 19:12:24.602522622,"Dubai Silicon Oasis, Dubai",Studio,3,1.0,600.0,550000.0,Active
+2025-09-26 23:31:52.170090190,"Palm Jumeirah, Dubai",Apartment,5,4.0,2000.0,2340000.0,Active
+2025-09-27 03:51:19.737657758,"Arabian Ranches, Dubai",Apartment,1,4.0,600.0,800000.0,Sold
+2025-09-27 08:10:47.305225326,"Palm Jumeirah, Dubai",Villa,3,2.0,2500.0,4535000.0,Pending
+2025-09-27 12:30:14.872792892,"Jumeirah Beach Residence, Dubai",Townhouse,3,3.0,1500.0,2425000.0,Active
+2025-09-27 16:49:42.440360460,"Al Majaz, Sharjah",Villa,3,2.0,2500.0,2495000.0,Active
+2025-09-27 21:09:10.007928028,"Al Reem Island, Abu Dhabi",Apartment,2,2.5,1027.0,1155000.0,Active
+2025-09-28 01:28:37.575495596,"Dubai Marina, Dubai",Apartment,2,3.0,698.0,1060000.0,Active
+2025-09-28 05:48:05.143063162,"Yas Island, Abu Dhabi",Villa,2,3.5,2500.0,3450000.0,Pending
+2025-09-28 10:07:32.710630730,"Business Bay, Dubai",Apartment,3,2.0,1508.0,1560000.0,Pending
+2025-09-28 14:27:00.278198298,"Yas Island, Abu Dhabi",Villa,3,3.0,2500.0,3510000.0,Active
+2025-09-28 18:46:27.845765866,"Al Reem Island, Abu Dhabi",Apartment,1,,600.0,915000.0,Sold
+2025-09-28 23:05:55.413333434,"Palm Jumeirah, Dubai",Townhouse,2,4.0,1500.0,2960000.0,Active
+2025-09-29 03:25:22.980901000,"Dubai Marina, Dubai",Apartment,4,1.0,1544.0,1640000.0,Active
+2025-09-29 07:44:50.548468568,"Downtown Dubai, Dubai",Villa,3,2.5,2500.0,4200000.0,Active
+2025-09-29 12:04:18.116036136,"Arabian Ranches, Dubai",Apartment,5,2.5,2000.0,1585000.0,Active
+2025-09-29 16:23:45.683603704,"Dubai Silicon Oasis, Dubai",Villa,3,2.5,2500.0,3025000.0,Active
+2025-09-29 20:43:13.251171272,"Downtown Dubai, Dubai",Apartment,2,1.5,1115.0,1395000.0,Active
+2025-09-30 01:02:40.818738838,"Dubai Marina, Dubai",Villa,2,3.5,2500.0,4280000.0,Active
+2025-09-30 05:22:08.386306406,"Al Raha Beach, Abu Dhabi",Villa,3,1.5,2500.0,3870000.0,Active
+2025-09-30 09:41:35.953873974,"Muwaileh, Sharjah",Villa,1,2.5,2500.0,2175000.0,Pending
+2025-09-30 14:01:03.521441542,"Business Bay, Dubai",Villa,2,2.0,2500.0,3480000.0,Active
+2025-09-30 18:20:31.089009108,"Downtown Dubai, Dubai",Villa,3,2.0,2500.0,4295000.0,Active
+2025-09-30 22:39:58.656576676,"Jumeirah Beach Residence, Dubai",Townhouse,1,2.0,1500.0,2425000.0,Pending
+2025-10-01 02:59:26.224144244,"Dubai Marina, Dubai",Apartment,3,2.0,1970.0,1595000.0,Sold
+2025-10-01 07:18:53.791711812,"Khalifa City, Abu Dhabi",Townhouse,2,1.5,1500.0,1535000.0,Sold
+2025-10-01 11:38:21.359279380,"Dubai Marina, Dubai",Apartment,5,1.5,2000.0,2095000.0,Active
+2025-10-01 15:57:48.926846946,"Arabian Ranches, Dubai",Apartment,0,2.0,600.0,645000.0,Active
+2025-10-01 20:17:16.494414514,"Jumeirah Beach Residence, Dubai",Apartment,2,3.0,1073.0,1350000.0,Active
+2025-10-02 00:36:44.061982082,"Arabian Ranches, Dubai",Apartment,3,3.0,1621.0,1375000.0,Active
+2025-10-02 04:56:11.629549650,"Dubai Silicon Oasis, Dubai",Townhouse,2,1.0,1500.0,1540000.0,Sold
+2025-10-02 09:15:39.197117216,"Al Raha Beach, Abu Dhabi",Villa,3,2.0,2500.0,3875000.0,Active
+2025-10-02 13:35:06.764684784,"Downtown Dubai, Dubai",Townhouse,3,1.5,2005.0,2815000.0,Active
+2025-10-02 17:54:34.332252352,"Dubai Marina, Dubai",Villa,1,1.0,2500.0,3765000.0,Active
+2025-10-02 22:14:01.899819920,"Dubai Marina, Dubai",Apartment,2,2.5,1087.0,1225000.0,Active
+2025-10-03 02:33:29.467387488,"Khalifa City, Abu Dhabi",Apartment,2,2.5,1148.0,800000.0,Pending
+2025-10-03 06:52:57.034955054,"Yas Island, Abu Dhabi",Apartment,2,1.5,1041.0,1140000.0,Active
+2025-10-03 11:12:24.602522622,"Arabian Ranches, Dubai",Apartment,4,2.0,2000.0,1455000.0,Active
+2025-10-03 15:31:52.170090190,"Arabian Ranches, Dubai",Apartment,3,1.0,1539.0,1290000.0,Active
+2025-10-03 19:51:19.737657758,"Dubai Silicon Oasis, Dubai",Apartment,3,3.0,1669.0,1070000.0,Active
+2025-10-04 00:10:47.305225326,"Downtown Dubai, Dubai",Villa,3,4.0,2500.0,4775000.0,Active
+2025-10-04 04:30:14.872792892,"Khalifa City, Abu Dhabi",Villa,2,1.5,2500.0,2975000.0,Active
+2025-10-04 08:49:42.440360460,"Palm Jumeirah, Dubai",Studio,4,2.0,600.0,1020000.0,Active
+2025-10-04 13:09:10.007928028,"Palm Jumeirah, Dubai",Penthouse,3,3.0,2000.0,6000000.0,Pending
+2025-10-04 17:28:37.575495596,"Business Bay, Dubai",Villa,3,3.5,2500.0,3785000.0,Sold
+2025-10-04 21:48:05.143063162,"Dubai Marina, Dubai",Apartment,4,2.0,2000.0,1730000.0,Sold
+2025-10-05 02:07:32.710630730,"Downtown Dubai, Dubai",Villa,2,,2500.0,4620000.0,Sold
+2025-10-05 06:27:00.278198298,"Al Reem Island, Abu Dhabi",Townhouse,3,1.0,1500.0,2480000.0,Active
+2025-10-05 10:46:27.845765866,"Dubai Marina, Dubai",Apartment,1,2.5,631.0,885000.0,Active
+2025-10-05 15:05:55.413333434,"Arabian Ranches, Dubai",Apartment,2,2.0,892.0,980000.0,Active
+2025-10-05 19:25:22.980901000,"Downtown Dubai, Dubai",Townhouse,2,1.0,1500.0,2405000.0,Pending
+2025-10-05 23:44:50.548468568,"Palm Jumeirah, Dubai",Apartment,5,2.5,2000.0,2385000.0,Sold
+2025-10-06 04:04:18.116036136,"Jumeirah Beach Residence, Dubai",Villa,4,1.0,2978.0,4175000.0,Pending
+2025-10-06 08:23:45.683603704,"Jumeirah Beach Residence, Dubai",Villa,3,3.0,2500.0,4615000.0,Active
+2025-10-06 12:43:13.251171272,"International City, Dubai",Apartment,3,2.0,1692.0,910000.0,Sold
+2025-10-06 17:02:40.818738838,"Jumeirah Beach Residence, Dubai",Apartment,2,1.0,880.0,1155000.0,Active
+2025-10-06 21:22:08.386306406,"Arabian Ranches, Dubai",Apartment,4,2.5,2000.0,1600000.0,Active
+2025-10-07 01:41:35.953873974,"Business Bay, Dubai",Apartment,2,2.0,1459.0,1370000.0,Active
+2025-10-07 06:01:03.521441542,"Dubai Silicon Oasis, Dubai",Apartment,2,4.0,952.0,845000.0,Active
+2025-10-07 10:20:31.089009108,"Al Majaz, Sharjah",Townhouse,1,2.0,1500.0,1305000.0,Active
+2025-10-07 14:39:58.656576676,"Al Reem Island, Abu Dhabi",Apartment,3,2.0,1527.0,1395000.0,Active
+2025-10-07 18:59:26.224144244,"Downtown Dubai, Dubai",Villa,3,3.0,2500.0,4840000.0,Active
+2025-10-07 23:18:53.791711812,"Dubai Marina, Dubai",Apartment,2,2.0,1314.0,1360000.0,Active
+2025-10-08 03:38:21.359279380,"Downtown Dubai, Dubai",Penthouse,0,3.5,2000.0,5410000.0,Pending
+2025-10-08 07:57:48.926846946,"Arabian Ranches, Dubai",Apartment,3,2.0,1566.0,1420000.0,Active
+2025-10-08 12:17:16.494414514,"Dubai Marina, Dubai",Apartment,0,2.0,600.0,840000.0,Active
+2025-10-08 16:36:44.061982082,"Business Bay, Dubai",Townhouse,3,1.0,,2610000.0,Pending
+2025-10-08 20:56:11.629549650,"Arabian Ranches, Dubai",Townhouse,5,2.0,3000.0,2630000.0,Sold
+2025-10-09 01:15:39.197117216,"Jumeirah Beach Residence, Dubai",Apartment,2,3.0,1278.0,1325000.0,Active
+2025-10-09 05:35:06.764684784,"Al Reem Island, Abu Dhabi",Townhouse,1,3.0,1500.0,2195000.0,Active
+2025-10-09 09:54:34.332252352,"Dubai Marina, Dubai",Apartment,3,2.0,1785.0,1715000.0,Active
+2025-10-09 14:14:01.899819920,"Dubai Marina, Dubai",Apartment,3,2.0,2000.0,1740000.0,Active
+2025-10-09 18:33:29.467387488,"Al Reem Island, Abu Dhabi",Apartment,2,3.0,1176.0,1100000.0,Active
+2025-10-09 22:52:57.034955054,"Business Bay, Dubai",Apartment,5,3.5,2000.0,1970000.0,Pending
+2025-10-10 03:12:24.602522622,"International City, Dubai",Villa,1,1.0,2500.0,2190000.0,Active
+2025-10-10 07:31:52.170090190,"Palm Jumeirah, Dubai",Apartment,2,,600.0,1155000.0,Pending
+2025-10-10 11:51:19.737657758,"Downtown Dubai, Dubai",Apartment,3,2.0,1716.0,1720000.0,Pending
+2025-10-10 16:10:47.305225326,"Al Raha Beach, Abu Dhabi",Villa,4,3.0,2500.0,3450000.0,Sold
+2025-10-10 20:30:14.872792892,"Al Reem Island, Abu Dhabi",Townhouse,1,1.0,1500.0,2025000.0,Active
+2025-10-11 00:49:42.440360460,"International City, Dubai",Apartment,3,2.0,1673.0,775000.0,Sold
+2025-10-11 05:09:10.007928028,"Jumeirah Beach Residence, Dubai",Villa,2,3.0,2500.0,3970000.0,Active
+2025-10-11 09:28:37.575495596,"Arabian Ranches, Dubai",Apartment,2,1.0,1325.0,1135000.0,Active
+2025-10-11 13:48:05.143063162,"Jumeirah Beach Residence, Dubai",Townhouse,1,2.0,1500.0,2325000.0,Active
+2025-10-11 18:07:32.710630730,"Dubai Marina, Dubai",Villa,4,2.0,2500.0,4505000.0,Active
+2025-10-11 22:27:00.278198298,"Khalifa City, Abu Dhabi",Studio,1,2.0,600.0,355000.0,Pending
+2025-10-12 02:46:27.845765866,"Dubai Marina, Dubai",Apartment,2,2.0,1056.0,1170000.0,Active
+2025-10-12 07:05:55.413333434,"Al Majaz, Sharjah",Apartment,2,2.0,1205.0,735000.0,Active
+2025-10-12 11:25:22.980901000,"Palm Jumeirah, Dubai",Apartment,4,1.5,2000.0,2295000.0,Active
