@@ -445,26 +445,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👤 Contact
-
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
-
-**Project Link:** [https://github.com/your-username/real-estate-analytics-gcp](https://github.com/your-username/real-estate-analytics-gcp)
-
----
-
-## 🙏 Acknowledgments
-
-- Built for demonstration of data engineering skills for Bayut & Dubizzle
-- Inspired by production data lake architectures
-- GCP documentation and best practices
-- Real estate data analysis patterns
-
----
-
 **⭐ If you found this project helpful, please consider giving it a star!**
 ```
 
