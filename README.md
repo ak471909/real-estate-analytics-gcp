@@ -1,452 +1,512 @@
-# 🏠 Real Estate Analytics Pipeline
 
-**An event-driven ETL pipeline for real estate listing analytics using Google Cloud Platform**
+# 🏠 Real Estate Analytics Data Pipeline
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/downloads/)
-[![GCP](https://img.shields.io/badge/GCP-Cloud%20Functions-orange.svg)](https://cloud.google.com/functions)
-[![BigQuery](https://img.shields.io/badge/BigQuery-Data%20Warehouse-green.svg)](https://cloud.google.com/bigquery)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+End-to-end real estate analytics pipeline with automated ETL, BigQuery data warehouse, and interactive dashboards. Built with Python, Google Cloud Platform, and modern BI tools.
 
----
-
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Sample Data](#sample-data)
-- [Analytics & Insights](#analytics--insights)
-- [Dashboard](#dashboard)
-- [Cost](#cost)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![GCP](https://img.shields.io/badge/GCP-BigQuery-orange.svg)](https://cloud.google.com/bigquery)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Interactive-yellow.svg)](https://powerbi.microsoft.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
-## 🎯 Overview
+## Live Dashboards
 
-This project implements a **fully automated, event-driven data pipeline** for analyzing real estate listings. Built using Google Cloud Platform's managed services, it demonstrates modern data engineering practices including:
+### Power BI Dashboard (Interactive)
+**[ View Live Power BI Dashboard](https://app.powerbi.com/groups/me/reports/50cc17b1-f3a8-49d5-b7ba-f2e0b6a5cb35/001f08d923813c040153?experience=power-bi)**
 
-- **Serverless ETL** processing with Cloud Functions
-- **Star schema** data warehouse design in BigQuery
-- **Event-driven architecture** using Cloud Storage triggers
-- **Automated analytics** and report generation
-- **Interactive dashboards** with Looker Studio
+- 12+ interactive visualizations across 3 pages
+- Real-time connection to BigQuery data warehouse
+- DAX measures for advanced analytics
+- Cross-filtering and drill-down capabilities
+- Custom price segmentation and trend analysis
 
-### Why This Project?
+### Looker Studio Dashboard
+**[ View Looker Studio Dashboard](#)** *(Add your Looker link)*
 
-Created to demonstrate skills relevant to **Data Engineer roles** at companies like Bayut, Dubizzle, and other real estate/classifieds platforms. The architecture mirrors production systems using:
-- Matillion-style ETL patterns
-- Amazon Redshift-equivalent data warehousing (BigQuery)
-- S3 + Lambda-style event processing (GCS + Cloud Functions)
+- Web-based collaborative analytics
+- Live data from BigQuery
+- Date range and location filters
+- Mobile-responsive design
+
+![Power BI Dashboard Preview](docs/screenshots/powerbi-dashboard-overview.png)
 
 ---
 
-## 🏗️ Architecture
+## Project Overview
+
+This project demonstrates a production-grade data engineering pipeline that:
+
+✅ **Automatically processes** property listing data from CSV uploads  
+✅ **Validates and cleans** data with outlier detection and missing value handling  
+✅ **Loads into BigQuery** using dimensional modeling (star schema)  
+✅ **Generates automated reports** with comprehensive analytics  
+✅ **Provides interactive dashboards** in both Power BI and Looker Studio  
+
+**Business Context:** UAE real estate market analysis covering Dubai, Abu Dhabi, and Sharjah with 988+ property listings.
+
+---
+
+## Architecture
 
 ```
-┌─────────────────┐
-│   CSV Upload    │
-│  (GCS Bucket)   │
-└────────┬────────┘
-         │ Storage Event Trigger
-         ▼
-┌─────────────────────────┐
-│   Cloud Function: ETL   │
-│  ┌──────────────────┐   │
-│  │ 1. Validate      │   │
-│  │ 2. Transform     │   │
-│  │ 3. Normalize     │   │
-│  └──────────────────┘   │
-└────────┬────────────────┘
-         │
-         ▼
-┌─────────────────────────────────────────┐
-│          BigQuery: Star Schema          │
-│  ┌──────────┐  ┌──────────┐            │
-│  │ dim_     │  │ dim_     │            │
-│  │ location │  │ property │            │
-│  └────┬─────┘  └────┬─────┘            │
-│       │             │                   │
-│       │    ┌────────┴────────┐         │
-│       └────│ fact_listings   │         │
-│            │  - price         │         │
-│            │  - bedrooms      │         │
-│            │  - sqft          │         │
-│            └─────────────────┘         │
-└────────┬────────────────────────────────┘
-         │ Query Execution
-         ▼
-┌──────────────────────────────┐
-│ Cloud Function: Analytics    │
-│  - Monthly trends            │
-│  - Location analysis         │
-│  - Property distribution     │
-│  - Price correlations        │
-└────────┬─────────────────────┘
-         │
-         ▼
-┌──────────────────────────────┐
-│    Presentation Layer        │
-│  - HTML Reports (GCS)        │
-│  - JSON Data (GCS)           │
-│  - Looker Studio Dashboard   │
-└──────────────────────────────┘
+CSV Upload (GCS)
+    ↓ [Cloud Storage Trigger]
+ETL Cloud Function (Python)
+    ├─ Extract: Read & validate CSV
+    ├─ Transform: Clean, normalize, detect outliers
+    └─ Load: BigQuery star schema
+         ↓
+BigQuery Data Warehouse
+    ├─ dim_location (15 cities)
+    ├─ dim_property_type (5 types)
+    ├─ dim_date (181 dates)
+    └─ fact_listings (988 records)
+         ↓
+Analytics Cloud Function (Python)
+    ├─ Execute 8 SQL queries
+    ├─ Generate HTML reports
+    └─ Export JSON data
+         ↓
+Visualization Layer
+    ├─ Power BI Dashboard (Interactive)
+    ├─ Looker Studio Dashboard (Web-based)
+    └─ Automated HTML Reports (GCS)
 ```
 
-### Architecture Highlights
-
-- **Event-Driven:** Automatic processing when files are uploaded
-- **Serverless:** No infrastructure management required
-- **Scalable:** Handles increasing data volumes automatically
-- **Cost-Effective:** Runs on GCP free tier (~$0/month for development)
+**Pipeline Processing Time:** ~2 minutes from upload to insights  
+**Manual Intervention Required:** Zero (fully automated)
 
 ---
 
-## ✨ Features
+##  Tech Stack
 
-### ETL Pipeline
-- ✅ Automated CSV ingestion from Cloud Storage
-- ✅ Data validation (schema, data types, required fields)
-- ✅ Data transformation and normalization
-- ✅ Missing value handling
-- ✅ Outlier detection and removal
-- ✅ Derived field calculation (price per sqft)
-- ✅ Star schema dimensional modeling
+### **Cloud Infrastructure**
+- **Google Cloud Platform (GCP)**
+  - Cloud Storage - Object storage for raw data and reports
+  - Cloud Functions (2nd Gen) - Serverless compute for ETL and analytics
+  - BigQuery - Columnar data warehouse (similar to Amazon Redshift)
+  - Cloud Logging - Centralized logging and monitoring
+  - IAM - Role-based access control
 
-### Analytics
-- ✅ Monthly price trend analysis
-- ✅ Location-based performance metrics
-- ✅ Property type distribution analysis
-- ✅ Price correlation studies
-- ✅ Top/bottom performers identification
-- ✅ Statistical summaries
+### **Data Engineering**
+- **Python 3.10**
+  - `pandas` - Data manipulation and transformation
+  - `numpy` - Numerical operations (IQR outlier detection)
+  - `google-cloud-bigquery` - BigQuery Python SDK
+  - `google-cloud-storage` - GCS Python SDK
+  - `pyarrow` - DataFrame serialization for BigQuery
+  - `db-dtypes` - BigQuery data type handling
 
-### Reporting
-- ✅ Automated HTML report generation
-- ✅ JSON data exports
-- ✅ Interactive Looker Studio dashboards
-- ✅ Visual data storytelling
+### **Data Warehouse**
+- **BigQuery**
+  - Star schema dimensional modeling
+  - 3 dimension tables + 1 fact table
+  - Optimized for analytical queries
+  - Supports both DirectQuery and Import modes
 
----
+### **Business Intelligence**
+- **Power BI**
+  - DirectQuery connection to BigQuery
+  - DAX measures for calculated metrics
+  - 12+ visualizations (cards, charts, tables, scatter plots)
+  - Cross-filtering and interactive slicers
+  - Published to Power BI Service with scheduled refresh
 
-## 🛠️ Tech Stack
+- **Looker Studio**
+  - Google's native BI tool
+  - Web-based collaborative dashboards
+  - Real-time data connectivity
+  - Mobile-responsive design
 
-| Component | Technology | Purpose |
-|-----------|------------|---------|
-| **Cloud Platform** | Google Cloud Platform | Infrastructure |
-| **Storage** | Cloud Storage (GCS) | Raw data & reports |
-| **Compute** | Cloud Functions | Serverless ETL processing |
-| **Data Warehouse** | BigQuery | Structured data storage |
-| **Language** | Python 3.10 | ETL logic & transformations |
-| **Data Processing** | Pandas, NumPy | Data manipulation |
-| **Visualization** | Looker Studio | Interactive dashboards |
-| **Version Control** | Git/GitHub | Code management |
-
-### Python Libraries
-- `google-cloud-storage` - GCS operations
-- `google-cloud-bigquery` - BigQuery operations
-- `pandas` - Data manipulation
-- `numpy` - Numerical operations
-- `functions-framework` - Cloud Functions local testing
+### **Analytics & Reporting**
+- **SQL** - Complex analytical queries (JOINs, window functions, aggregations)
+- **HTML/CSS** - Formatted report generation
+- **JSON** - Structured data exports
 
 ---
 
-## 📁 Project Structure
+##  Features
+
+### **Automated ETL Pipeline**
+- ✅ Event-driven architecture (Cloud Storage triggers)
+- ✅ Schema validation on ingestion
+- ✅ Data quality checks at multiple layers
+- ✅ IQR-based outlier detection (removes 1.2% extreme values)
+- ✅ Median imputation for missing values
+- ✅ Star schema with proper foreign key relationships
+- ✅ Idempotent operations (safe to retry)
+
+**Data Quality Results:**
+- Input: 1,000 raw records
+- Output: 988 clean records (98.8% retention)
+- Outliers removed: 12 (1.2%)
+- Missing values imputed: 50 (5%)
+- Processing time: 15-20 seconds
+
+### **Analytics & Insights**
+- ✅ 8 comprehensive SQL queries covering:
+  - Summary statistics (totals, averages, ranges)
+  - Monthly price trends and seasonality
+  - Location-based performance analysis
+  - Property type distribution and market share
+  - Statistical correlations (price vs features)
+  - Premium segment analysis (top 10 expensive)
+  - Market segmentation by price brackets
+  - Bedroom inventory distribution
+
+### **Interactive Dashboards**
+
+**Power BI Dashboard Features:**
+-  **3 KPI Cards:** Total Listings, Average Price, Average Price/SqFt
+-  **Line Chart:** Price trends over 6 months
+-  **Bar Chart:** Listings distribution by city
+-  **Pie Chart:** Property type composition
+-  **Scatter Plot:** Price vs Square Footage (with trendline)
+-  **Table:** Top 10 most expensive properties
+-  **Funnel Chart:** Market segmentation by price brackets
+-  **Matrix:** Bedroom distribution with metrics
+-  **Slicers:** Date range, location, property type, bedrooms
+
+**Looker Studio Dashboard Features:**
+- Similar visualizations with Google's design language
+- Shared collaboration features
+- Embedded analytics capabilities
+
+---
+
+##  Project Structure
 
 ```
 real-estate-analytics-gcp/
-│
 ├── README.md                          # This file
-├── .gitignore                         # Git ignore rules
+├── .gitignore                         # Git exclusions
 │
 ├── cloud-functions/
-│   ├── etl-function/                  # ETL Cloud Function
-│   │   ├── main.py                    # Entry point (process_csv)
-│   │   ├── transform.py               # Data transformation logic
-│   │   ├── load.py                    # BigQuery loading logic
-│   │   ├── requirements.txt           # Python dependencies
-│   │   └── README.md                  # Deployment instructions
+│   ├── etl-function/                  # ETL Pipeline
+│   │   ├── main.py                    # Entry point & orchestration
+│   │   ├── transform.py               # Data cleaning (200+ lines)
+│   │   ├── load.py                    # BigQuery loading (200+ lines)
+│   │   └── requirements.txt           # Python dependencies
 │   │
-│   └── analytics-function/            # Analytics Cloud Function
-│       ├── main.py                    # Entry point (generate_report)
-│       ├── requirements.txt           # Python dependencies
-│       └── README.md                  # Deployment instructions
+│   └── analytics-function/            # Analytics Pipeline
+│       ├── main.py                    # Report generation (400+ lines)
+│       └── requirements.txt           # Python dependencies
 │
 ├── sql/
-│   ├── schema/                        # Table definitions
-│   │   └── create_tables.sql          # BigQuery schema DDL
-│   └── queries/                       # Analytical queries
-│       └── analytics_queries.sql      # All analysis queries
+│   ├── schema/
+│   │   └── create_tables.sql          # BigQuery DDL
+│   └── queries/
+│       └── analytics_queries.sql      # 10 analytical queries
 │
 ├── data/
-│   ├── sample/                        # Sample data (committed)
-│   │   ├── generate_data.py           # Data generation script
-│   │   └── sample_listings.csv        # Example dataset
-│   └── raw/                           # Raw uploads (gitignored)
+│   └── sample/
+│       ├── generate_data.py           # Synthetic data generator
+│       └── real_estate_sample_data.csv # Test data (1000 records)
 │
 ├── docs/
-│   ├── PROJECT_PLAN.md                # Complete project documentation
-│   ├── PROGRESS_LOG.md                # Session-by-session progress
-│   ├── architecture/                  # Architecture diagrams
-│   ├── screenshots/                   # Dashboard screenshots
-│   └── setup/                         # Setup guides
+│   ├── PROJECT_PLAN.md                # Detailed documentation
+│   ├── PROGRESS_LOG.md                # Development log
+│   └── screenshots/
+│       ├── powerbi/
+│       │   ├── dashboard-overview.png
+│       │   ├── location-analysis.png
+│       │   └── property-analysis.png
+│       └── looker/
+│           └── dashboard.png
 │
 └── config/
-    └── bucket-lifecycle.json          # GCS lifecycle configuration
+    └── bucket-lifecycle.json          # GCS lifecycle policy
 ```
 
 ---
 
-## 🚀 Getting Started
+##  Setup & Deployment
 
-### Prerequisites
+### **Prerequisites**
+- Google Cloud Platform account
+- Python 3.10+
+- gcloud CLI installed
+- Power BI Desktop (for local development)
 
-1. **GCP Account** with billing enabled (free tier eligible)
-2. **gcloud CLI** installed and configured
-3. **Python 3.10+** installed locally
-4. **Git** for version control
-
-### Installation
-
-#### 1. Clone the Repository
+### **1. Clone Repository**
 ```bash
 git clone https://github.com/YOUR-USERNAME/real-estate-analytics-gcp.git
 cd real-estate-analytics-gcp
 ```
 
-#### 2. Set Up GCP Project
+### **2. GCP Project Setup**
 ```bash
-# Set your project ID
+# Set project ID
 export PROJECT_ID="your-project-id"
 gcloud config set project $PROJECT_ID
 
 # Enable required APIs
 gcloud services enable cloudfunctions.googleapis.com
-gcloud services enable storage-api.googleapis.com
 gcloud services enable bigquery.googleapis.com
-gcloud services enable cloudbuild.googleapis.com
+gcloud services enable storage.googleapis.com
 ```
 
-#### 3. Create Cloud Storage Buckets
+### **3. Create GCS Buckets**
 ```bash
-# Landing bucket (for CSV uploads)
+# Landing bucket for raw data
 gsutil mb -l us-central1 gs://${PROJECT_ID}-real-estate-landing
 
-# Reports bucket (for outputs)
+# Reports bucket
 gsutil mb -l us-central1 gs://${PROJECT_ID}-real-estate-reports
 ```
 
-#### 4. Create BigQuery Dataset
+### **4. Create BigQuery Dataset**
 ```bash
-bq mk --dataset --location=us-central1 ${PROJECT_ID}:real_estate_dw
+bq mk --location=US real_estate_dw
 ```
 
-#### 5. Create BigQuery Tables
-```bash
-bq query --use_legacy_sql=false < sql/schema/create_tables.sql
-```
-
-#### 6. Deploy Cloud Functions
-
-**ETL Function:**
+### **5. Deploy ETL Function**
 ```bash
 cd cloud-functions/etl-function
 
 gcloud functions deploy real-estate-etl-function \
-  --runtime python310 \
-  --trigger-resource ${PROJECT_ID}-real-estate-landing \
-  --trigger-event google.storage.object.finalize \
-  --entry-point process_csv \
-  --memory 256MB \
-  --timeout 60s \
-  --region us-central1 \
-  --set-env-vars PROJECT_ID=${PROJECT_ID},DATASET_ID=real_estate_dw
+  --gen2 \
+  --runtime=python310 \
+  --region=us-central1 \
+  --source=. \
+  --entry-point=process_csv \
+  --trigger-bucket=${PROJECT_ID}-real-estate-landing \
+  --set-env-vars PROJECT_ID=${PROJECT_ID},DATASET_ID=real_estate_dw \
+  --memory=256MB \
+  --timeout=60s
 ```
 
-**Analytics Function:**
+### **6. Deploy Analytics Function**
 ```bash
 cd ../analytics-function
 
 gcloud functions deploy real-estate-analytics-function \
-  --runtime python310 \
+  --gen2 \
+  --runtime=python310 \
+  --region=us-central1 \
+  --source=. \
+  --entry-point=generate_report \
   --trigger-http \
   --allow-unauthenticated \
-  --entry-point generate_report \
-  --memory 512MB \
-  --timeout 120s \
-  --region us-central1 \
-  --set-env-vars PROJECT_ID=${PROJECT_ID},DATASET_ID=real_estate_dw,REPORTS_BUCKET=${PROJECT_ID}-real-estate-reports
+  --set-env-vars PROJECT_ID=${PROJECT_ID},DATASET_ID=real_estate_dw,REPORTS_BUCKET=${PROJECT_ID}-real-estate-reports \
+  --memory=512MB \
+  --timeout=120s
 ```
 
----
-
-## 💡 Usage
-
-### Upload Data
-
-**Option 1: Via GCS Console**
-1. Go to [GCS Console](https://console.cloud.google.com/storage)
-2. Navigate to `{project-id}-real-estate-landing` bucket
-3. Click "Upload Files"
-4. Select your CSV file
-5. ETL function will trigger automatically
-
-**Option 2: Via Command Line**
+### **7. Test the Pipeline**
 ```bash
-gsutil cp data/sample/sample_listings.csv gs://${PROJECT_ID}-real-estate-landing/
-```
-
-### Generate Analytics Report
-
-**Trigger via HTTP:**
-```bash
-curl https://us-central1-${PROJECT_ID}.cloudfunctions.net/real-estate-analytics-function
-```
-
-**Or via GCP Console:**
-1. Go to Cloud Functions
-2. Click on `real-estate-analytics-function`
-3. Go to "Testing" tab
-4. Click "Test the function"
-
-### View Results
-
-**BigQuery Data:**
-```bash
-# View fact table
-bq query --use_legacy_sql=false \
-  'SELECT * FROM `'${PROJECT_ID}'.real_estate_dw.fact_listings` LIMIT 10'
-```
-
-**Reports:**
-- Navigate to `{project-id}-real-estate-reports` bucket
-- Download HTML or JSON files
-
-**Dashboard:**
-- Open Looker Studio
-- Connect to BigQuery dataset
-- [Link to live dashboard - to be added]
-
----
-
-## 📊 Sample Data
-
-The `data/sample/` directory contains a script to generate realistic real estate data:
-
-```bash
-cd data/sample
+# Generate test data
+cd ../../data/sample
 python generate_data.py
+
+# Upload to trigger pipeline
+gsutil cp real_estate_sample_data.csv gs://${PROJECT_ID}-real-estate-landing/
 ```
 
-**Generated Data Includes:**
-- 1,000 property listings
-- 10 locations (Dubai, Abu Dhabi, Sharjah)
-- 5 property types (Apartment, Villa, Townhouse, Penthouse, Studio)
-- Price range: $200K - $5M
-- 6-month date range
+### **8. Connect Power BI**
+
+**Create service account for Power BI:**
+```bash
+gcloud iam service-accounts create powerbi-reader \
+  --display-name="Power BI BigQuery Reader"
+
+gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+  --member="serviceAccount:powerbi-reader@${PROJECT_ID}.iam.gserviceaccount.com" \
+  --role="roles/bigquery.dataViewer"
+
+gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+  --member="serviceAccount:powerbi-reader@${PROJECT_ID}.iam.gserviceaccount.com" \
+  --role="roles/bigquery.jobUser"
+```
+
+**In Power BI Desktop:**
+1. Get Data → Google BigQuery
+2. Authenticate with your Google account
+3. Select project and dataset
+4. Load tables (all 4)
+5. Create visualizations
+6. Publish to Power BI Service
 
 ---
 
-## 📈 Analytics & Insights
+##  Data Model
 
-The pipeline generates the following analytical insights:
+### **Star Schema Design**
 
-### 1. Monthly Trends
-- Average prices by month
-- Listing volume trends
-- Seasonal patterns
+```
+           dim_date
+          ┌─────────┐
+          │ date_id │ PK
+          │ full_date
+          │ year
+          │ month
+          │ day_of_week
+          └─────────┘
+                ↑
+                │
+    ┌───────────┼───────────┐
+    │           │           │
+dim_location    │    dim_property_type
+┌─────────┐    │    ┌──────────────┐
+│location_id PK │    │property_type_id PK
+│ city      │   │    │ type_name    │
+│ state     │   │    └──────────────┘
+└─────────┘    │           ↑
+    ↑          │           │
+    │          │           │
+    │    fact_listings     │
+    │   ┌──────────────┐   │
+    └───┤ listing_id   │   │
+        │ date_id      │───┘
+        │ location_id  │
+        │ property_type_id
+        │ price        │
+        │ bedrooms     │
+        │ bathrooms    │
+        │ sqft         │
+        │ price_per_sqft
+        └──────────────┘
+```
 
-### 2. Location Analysis
-- Top performing cities
-- Price per sqft by location
-- Inventory distribution
-
-### 3. Property Type Distribution
-- Apartment vs Villa vs Townhouse metrics
-- Price ranges by type
-- Size (sqft) distributions
-
-### 4. Price Correlations
-- Price vs Square Footage
-- Price vs Bedrooms
-- Size vs Bedrooms
-
-### 5. Top Performers
-- Most expensive listings
-- Best value properties (price per sqft)
-- Fastest moving inventory
-
----
-
-## 📱 Dashboard
-
-[Screenshot to be added]
-
-**Interactive Features:**
-- Date range filters
-- Location drill-down
-- Property type selection
-- Price range sliders
-- Dynamic charts and graphs
-
-**Live Dashboard:** [Link to be added]
+**Fact Table:** 988 records  
+**Dimensions:** 15 locations, 5 property types, 181 dates
 
 ---
 
-## 💰 Cost
+##  Analytics Queries
 
-**Development/Testing:** ~$0/month (free tier)
+The pipeline executes 8 comprehensive queries:
 
-| Service | Free Tier | Typical Usage | Cost |
-|---------|-----------|---------------|------|
-| Cloud Storage | 5GB | ~100MB | $0 |
-| Cloud Functions | 2M invocations | ~100/month | $0 |
-| BigQuery | 10GB + 1TB queries | 5GB + 100GB | $0 |
+1. **Summary Statistics** - Totals, averages, min/max
+2. **Monthly Trends** - Time series analysis
+3. **Location Performance** - Geographic comparison
+4. **Property Type Distribution** - Market composition
+5. **Price Correlations** - Statistical relationships
+6. **Premium Listings** - Top 10 expensive properties
+7. **Bedroom Distribution** - Inventory segmentation
+8. **Price Brackets** - Market segmentation (Budget to Ultra-Luxury)
 
-**Production Scale:** ~$10-50/month depending on data volume
-
----
-
-## 🚧 Future Enhancements
-
-- [ ] Add Cloud Scheduler for automated daily reports
-- [ ] Implement incremental loading (CDC)
-- [ ] Add data quality monitoring
-- [ ] Create API endpoints for external access
-- [ ] Add machine learning price predictions
-- [ ] Implement alerting for anomalies
-- [ ] Add support for multiple data sources
-- [ ] Create mobile-friendly dashboard
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+**Sample Query:**
+```sql
+SELECT 
+  l.city,
+  COUNT(*) as listing_count,
+  ROUND(AVG(f.price), 2) as avg_price,
+  ROUND(AVG(f.price_per_sqft), 2) as avg_price_per_sqft
+FROM `project.dataset.fact_listings` f
+JOIN `project.dataset.dim_location` l ON f.location_id = l.location_id
+GROUP BY l.city
+ORDER BY avg_price DESC
+```
 
 ---
 
-## 📄 License
+##  Key Learning Outcomes
+
+### **Data Engineering Skills**
+- Event-driven ETL architecture
+- Data quality management (validation, outlier detection, imputation)
+- Dimensional modeling (star schema)
+- Cloud data warehousing (BigQuery)
+- Serverless computing (Cloud Functions)
+
+### **Analytics Skills**
+- Complex SQL queries (JOINs, aggregations, window functions)
+- Statistical analysis (correlations, distributions)
+- Business intelligence metrics
+- Report automation
+
+### **Visualization Skills**
+- Power BI dashboard development
+- DAX measures and calculated columns
+- Interactive filtering and cross-filtering
+- Looker Studio configuration
+
+### **Cloud Engineering Skills**
+- GCP service configuration
+- IAM and security
+- Cost optimization
+- Infrastructure as code
+
+---
+
+##  Security & Governance
+
+- **IAM:** Role-based access control for all GCP resources
+- **Encryption:** Data encrypted at rest and in transit
+- **Logging:** Comprehensive execution logs in Cloud Logging
+- **Monitoring:** Function performance and error tracking
+- **Cost Management:** Optimized for free tier usage (~$0/month for development)
+
+---
+
+##  Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Data Processed | 1,000 → 988 records |
+| Data Quality Retention | 98.8% |
+| Outliers Detected | 12 (1.2%) |
+| Missing Values Handled | 50 (5%) |
+| ETL Processing Time | 15-20 seconds |
+| Analytics Execution | 10 seconds (8 queries) |
+| End-to-End Latency | ~2 minutes |
+| Storage Cost | <$0.01/month |
+| Compute Cost (dev) | ~$0/month (free tier) |
+
+---
+
+##  Future Enhancements
+
+- [ ] Incremental loading with CDC (Change Data Capture)
+- [ ] Machine learning price prediction model (BigQuery ML)
+- [ ] RESTful API for external data access
+- [ ] Real-time streaming with Pub/Sub + Dataflow
+- [ ] Data quality monitoring dashboard
+- [ ] Airflow orchestration for complex workflows
+- [ ] Multi-tenancy with row-level security
+- [ ] Tableau/Qlik Sense integrations
+
+---
+
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**⭐ If you found this project helpful, please consider giving it a star!**
-```
+##  Author
+
+**Abhinandan Ajit Kumar**
+
+- GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+- Email: abhinandan19909@gmail.com
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
+- Portfolio: [Your Website](https://yourwebsite.com)
 
 ---
+
+##  Acknowledgments
+
+- Built as a portfolio project demonstrating data engineering skills
+- Designed with architecture patterns similar to Bayut/Dubizzle tech stack
+- Uses GCP services analogous to AWS (BigQuery ≈ Redshift, Cloud Functions ≈ Lambda)
+- Implements industry best practices for ETL and dimensional modeling
+
+---
+
+##  Contact
+
+For questions or collaboration opportunities:
+- Open an issue in this repository
+- Email: abhinandan19909@gmail.com
+- Connect on [LinkedIn](https://linkedin.com/in/your-profile)
+
+---
+
+** If you found this project helpful, please give it a star!**
+
+```
+
 
